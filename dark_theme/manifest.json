@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+        "version": "1.0",
+        "name": "dark theme",
+        "description": "A dark theme",
+        "theme": {
+          
+          "colors" : {
+            "toolbar" : [157, 157, 157],
+            "background_tab" : [200, 200, 200],
+            "tab_text" : [17, 17, 17],
+            "tab_background_text": [ 222, 222, 222 ],
+            "bookmark_text"  : [17, 17, 17]	
+	   }
+        
+        }
+      }
