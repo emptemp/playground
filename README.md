@@ -1,3 +1,3 @@
 # random
 
-randonm rep for random stuff
+random rep for random stuff
