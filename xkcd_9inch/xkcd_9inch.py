@@ -1,4 +1,3 @@
-from imagoPy import *
 import requests
 import urllib2
 import urllib
@@ -7,11 +6,6 @@ import cv2
 import os
 import time
 from datetime import datetime
-
-DEBUG_ENABLED = 1
-server_adress = "192.168.0.220"
-label = "DA0000C1"
-ip = ImagoPy(server_adress, DEBUG_ENABLED)
 
 img_h = 960
 img_w = 672
@@ -102,11 +96,8 @@ def prepareImage(image, title, img_w, img_h):
     if h < w:
         os.system("convert -rotate 90 " + output_name + " " + output_name)
 
-# send image to label
 def sendImage(output_name):
-    transaction = ip.sendImage(label, output_name, 0)
-    if DEBUG_ENABLED == 1:
-        print ip.isFinished(transaction)
+  # send img here
 
 #while 1:
 # fetch image from xkcd.com
