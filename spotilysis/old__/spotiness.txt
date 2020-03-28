@@ -1,0 +1,6 @@
+1	2	liveness	tempo	spechiness	acousticness	3	instrumentalness	time_signature	danceability	key	time_signature	durcation_ms	loudness	valence	
+
+
+
+
+

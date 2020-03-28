@@ -1,0 +1,14 @@
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Odds and Ends - (Alternate Version) Take 1	0.521	0.166	131.129	0.038	0.455	6.3e-06	3	0.603	9	108360	-7.665	0.92	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Million Dollar Bash - Take 1	0.475	0.26	123.788	0.111	0.758	0	4	0.518	1	172120	-10.334	0.447	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	You Ain't Goin' Nowhere - Take 1	0.352	0.219	111.746	0.0312	0.748	1.83e-06	4	0.532	9	168307	-11.121	0.437	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Ain't No More Cane - (Alternate Version) Take 2	0.214	0.102	127.735	0.0307	0.792	0.00123	4	0.483	4	117880	-12.008	0.43	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	One Too Many Mornings	0.367	0.129	69.918	0.0312	0.929	0.00397	4	0.388	9	203213	-11.155	0.358	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Dress It up, Better Have it All	0.58	0.185	150.454	0.0941	0.849	0.000342	4	0.482	0	172893	-10.295	0.784	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Too Much of Nothing - Take 2	0.324	0.325	133.025	0.028	0.486	0	4	0.485	4	172987	-9.179	0.493	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Lo and Behold! - Take 2	0.522	0.15	147.495	0.0797	0.172	1.62e-05	4	0.537	7	173840	-11.174	0.721	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	All You Have to Do Is Dream - Take 2	0.536	0.192	99.734	0.0463	0.731	0.00732	4	0.661	11	203000	-10.11	0.77	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Nothing Was Delivered - Take 1	0.387	0.0864	204.164	0.0368	0.287	3.51e-06	3	0.317	7	266187	-11.453	0.561	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Folsom Prison Blues	0.637	0.199	156.135	0.0384	0.266	0	4	0.438	11	166560	-8.894	0.749	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	Don't Ya Tell Henry	0.469	0.253	126.4	0.0811	0.496	0	4	0.488	5	150787	-10.666	0.685	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	900 Miles from My Home	0.365	0.104	121.45	0.0353	0.798	0	4	0.688	5	133560	-10.573	0.833	
+﻿Bob Dylan	The Basement Tapes Sampler: The Bootleg Series, Vol. 11	I'm Your Teenage Prayer	0.572	0.0871	102.876	0.0331	0.588	0	4	0.494	2	232427	-8.35	0.781	

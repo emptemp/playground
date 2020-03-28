@@ -1,0 +1,1709 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Kerry D. Wong  &raquo; Blog Archive   &raquo; Hacking DTM0660L Based Multimeters</title>
+
+<link rel="stylesheet" href="http://www.kerrywong.com/blog/wp-content/themes/fluid-blue/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://www.kerrywong.com/blog/wp-content/themes/fluid-blue/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" title="Kerry D. Wong RSS Feed" href="http://www.kerrywong.com/feed/" />
+<link rel="pingback" href="http://www.kerrywong.com/blog/xmlrpc.php" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Kerry D. Wong &raquo; Hacking DTM0660L Based Multimeters Comments Feed" href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.kerrywong.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sociablecss-css'  href='http://www.kerrywong.com/blog/wp-content/plugins/sociable/css/sociable.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/sociable/js/sociable.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/sociable/js/vuible.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/sociable/js/addtofavorites.js?ver=4.9.1'></script>
+<link rel='https://api.w.org/' href='http://www.kerrywong.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.kerrywong.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.kerrywong.com/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Quick Review of the ennoLogic eM860T True RMS Multimeter' href='http://www.kerrywong.com/2016/03/13/quick-review-of-the-ennologic-em860t-true-rms-multimeter/' />
+<link rel='next' title='DTM0660 Datasheet Translated' href='http://www.kerrywong.com/2016/04/03/dtm0660-datasheet-translated/' />
+<meta name="generator" content="WordPress 4.9.1" />
+<link rel="canonical" href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/" />
+<link rel='shortlink' href='http://www.kerrywong.com/?p=13079' />
+<link rel="alternate" type="application/json+oembed" href="http://www.kerrywong.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.kerrywong.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&#038;format=xml" />
+<script type='text/javascript'>var base_url_sociable = 'http://www.kerrywong.com/blog/wp-content/plugins/sociable/'</script><script type='text/javascript' src='http://apis.google.com/js/plusone.js'></script><script src="/blog/jsMath/easy/load.js"></script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body>
+<div id="page">
+<div id="header">
+	<div id="headertitle">
+		<h1><a href="http://www.kerrywong.com" title="Kerry D. Wong: ">Kerry D. Wong</a></h1>
+		<p></p>
+	</div> 
+	<div id="headerads">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Ads Horizontal Large -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:90px"
+     data-ad-client="ca-pub-8717552292636871"
+     data-ad-slot="8867647542"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+	<!-- Search box (If you prefer having search form as a sidebar widget, remove this block) -->
+	<div class="search">
+		<form method="get" id="searchform" action="http://www.kerrywong.com/">
+<input type="text" size="20" name="s" id="s" value="Search..."  onblur="if(this.value=='') this.value='Search...';" onfocus="if(this.value=='Search...') this.value='';"/>
+</form>
+	</div> 
+	<!-- Search ends here-->
+		
+</div>
+
+<div id="navbar">
+<ul id="nav">
+	<li><a href="http://www.kerrywong.com">Home</a></li>
+	<!--<li class="page_item page-item-2"><a href="http://www.kerrywong.com/about/">About</a></li>
+<li class="page_item page-item-238"><a href="http://www.kerrywong.com/tiff-merge-and-split-utility/">TIFF Merge and Split Utility</a></li>
+<li class="page_item page-item-6826"><a href="http://www.kerrywong.com/mcp2210-library-reference/">MCP2210 Library &#8212; Reference</a></li>
+<li class="page_item page-item-7171"><a href="http://www.kerrywong.com/bcalc/">BCalc &#8212; A Hex/Bin/Dec Converter And Calculator</a></li>
+-->
+	<li><a href="https://www.youtube.com/user/KerryWongBlog/videos">My Youtube Channel</a></li>
+	<li><a href="http://www.kerrywong.com/about/">About</a></li>
+</ul>
+</div>
+<div id="wrapper">
+
+	<div id="content">
+
+			
+		<div class="navigation">
+			<div class="alignleft">&laquo; <a href="http://www.kerrywong.com/2016/03/13/quick-review-of-the-ennologic-em860t-true-rms-multimeter/" rel="prev">Quick Review of the ennoLogic eM860T True RMS Multimeter</a></div>
+			<div class="alignright"><a href="http://www.kerrywong.com/2016/04/03/dtm0660-datasheet-translated/" rel="next">DTM0660 Datasheet Translated</a> &raquo;</div>
+		</div>
+
+		<div class="post" id="post-13079">
+			<h2 class="posttitle"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/" rel="bookmark" title="Permanent Link to Hacking DTM0660L Based Multimeters">Hacking DTM0660L Based Multimeters</a></h2>
+			<div class="postmetadata">March 19, 2016, 2:25 pm <!-- by kwong --></div>
+			<div class="postentry">
+				<p><a href="http://www.kerrywong.com/2016/03/13/quick-review-of-the-ennologic-em860t-true-rms-multimeter/">In my previous post</a>, I did a review of the 6000 counts ennoLogic eM860T true RMS multimeter. This meter is based on a signal chip design using the versatile DTM0660L DMM chip. Besides the ennoLogic eM860T, several other multimeters such as UNI-T 139C, <a href="https://www.vellemanstore.com/">Velleman</a> DV4100, Tekpower TP40 etc. are also based on the same chip.<span id="more-13079"></span></p>
+<p>One key feature of this chip is that most of the configurable parameters as well as the calibration data are all stored in an external EEPROM. This means that we could potentially change certain settings and enable certain settings (e.g. enabling UART communication, backlight duration, auto power off duration, etc.) by just changing values in the configuration EEPROM without having to do any hardware modifications. We will take a look at how to make these configuration changes in this post.</p>
+<p>Since <a href="http://sigrok.org/">sigrok</a> (a cross-platform signal analysis software suite) already added support for the DTM0660 chip, we can use the <a href="https://sigrok.org/wiki/Sigrok-cli">sigrok-cli</a> command line utility to talk to the meter via <a href="https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter">UART</a>/<a href="https://en.wikipedia.org/wiki/RS-232">RS232</a> once we have the functionality enabled .</p>
+<p>As I mentioned in my previous post, the PCB of the eM860T already had REL/PC Link printed on its silk screen, but this feature was not enabled for the meter as long press on REL button does nothing. According to the datasheet for DTM0660 (if you follow the link on <a href="https://sigrok.org/wiki/Multimeter_ICs">sigrok&#8217;s supported devices page</a>, you can find the datasheet hosted on a Chinese document share website, unfortunately is not in a very user friendly format), UART functionality is supported via external EEPROM configuration as well as some other functionalities.</p>
+<p>The EEPROM used in eM860T is an <a href="http://pdf.datasheetcatalog.com/datasheets/90/80419_DS.pdf">24C02A</a>. It uses I2C protocol for programming. eM860T has the I2C header populated on the PCB already, but I didn&#8217;t realize that at first. As you can see in the picture below  I soldered three wires directly onto the board when I was playing around with the 24C02A. The WP pin of the on-board 24C02A has a pull-up resistor connected to VCC (e.g. the chip is in write protected mode). In order to write data to it, WP pin needed to be pulled low (in the picture you can see a wire soldered from pin 7 to ground). </p>
+<p>Since the calibration data is also stored on the same EEPROM chip, it is highly recommended that you back up the content before making any changes. Also at least in this meter there are two solder bridges that you can remove (see SW1 and SW2 below). These bridges connect the I2C bus of the 24C02A and that of the DTM0660L together. While you don&#8217;t have to remove these solder bridges when reading from or writing to the EEPROM since these chips have different I2C addresses, it is highly recommended that you do as in the rare event if a wrong command with a wrong I2C address is issued you could inadvertently alter the content in DTM0660L (I am not sure whether this chip has any on-chip EEPROM or not, but it is always good to be safe than sorry) and brick the device.</p>
+<p><a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg.jpg" rel="attachment wp-att-13101"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg-400x300.jpg" alt="I2CProg" width="400" height="300" class="aligncenter size-medium wp-image-13101" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/I2CProg.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+<p>So I went ahead and dumped the content of the 2kb in the 24C02A with the help of an Arduino (the actual code I used is included here).</p>
+<pre class="brush: cpp; title: ; notranslate" title="">
+#include &lt;Wire.h&gt;
+const int I2C_ADDR = 0x50;
+
+void setup() {
+  Serial.begin(9600);
+  Wire.begin();
+
+  dumpEEPROM();
+  //writeByte(I2C_ADDR, 0xFA, (byte) 0xCE); //enable RS232
+  //writeByte(I2C_ADDR, 0xFC, (byte) 0x1E); //Backlight time 30s
+}
+
+void loop() {}
+
+void dumpEEPROM()
+{
+  for (int i = 0; i &lt; 256; i++) {
+    byte b = readByte(I2C_ADDR, i);
+    Serial.print(b, HEX); Serial.print(&quot; &quot;);
+    if ((i + 1) % 16 == 0) Serial.println();
+  }
+  Serial.println();
+}
+
+void writeByte(int i2cAddr, unsigned int addr, byte data) {
+  Wire.beginTransmission(i2cAddr);
+  Wire.write(addr);
+  Wire.write(data);
+  Wire.endTransmission();
+}
+
+byte readByte(int i2cAddr, unsigned int addr) {
+  byte data = 0x00;
+  Wire.beginTransmission(i2cAddr);
+  Wire.write(addr);
+  Wire.endTransmission();
+  Wire.requestFrom(i2cAddr, 1);
+  while (!Wire.available()) ;
+
+  data = Wire.read();
+  return data;
+}
+</pre>
+<p>And here is the content of the 24C02A in its entirety:</p>
+<pre><span style="color: #008080;">    0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F</span>
+<span style="color: #008080;">00</span> FF FF FF FF FF FF FF FF FF 52 00 36 01 EC D7 03 
+<span style="color: #008080;">10</span> 10 17 38 18 44 02 6E 6E 64 64 3C 3C 0A FF 40 FF 
+<span style="color: #008080;">20</span> 46 98 E8 80 00 03 C2 01 00 80 52 80 07 80 96 B5 
+<span style="color: #008080;">30</span> 4E 02 09 2D 02 09 80 FC 0A 9B 1B 0A 8D 02 0A 00 
+<span style="color: #008080;">40</span> 00 01 00 01 00 07 98 00 64 00 64 00 64 00 00 00 
+<span style="color: #008080;">50</span> 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 
+<span style="color: #008080;">60</span> E9 7F 3E 80 01 00 AA 2A 00 00 00 00 00 00 00 00 
+<span style="color: #008080;">70</span> 38 81 00 80 DA 81 E0 7C B3 01 00 00 00 00 00 00 
+<span style="color: #008080;">80</span> <span style="color: #ff6600;">00 00 00 00 00 00 13 12 10 03 0E 09 01 0C 04 07</span> 
+<span style="color: #008080;">90</span> <span style="color: #ff6600;">00 00 00 00 00 00 15 00 11 00 0F 0A 02 0D 1E 0B</span> 
+<span style="color: #008080;">A0</span> <span style="color: #ff6600;">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</span> 
+<span style="color: #008080;">B0</span> <span style="color: #ff6600;">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</span> 
+<span style="color: #008080;">C0</span> 0D 00 02 10 0D 00 03 20 20 00 03 20 20 00 03 10 
+<span style="color: #008080;">D0</span> 41 00 03 08 41 00 03 05 41 00 03 05 0D 00 02 20 
+<span style="color: #008080;">E0</span> 00 80 00 80 00 80 00 80 00 80 00 80 F8 7F 06 80 
+<span style="color: #008080;">F0</span> 00 80 FF FF FF FF FF FF 5A CB <span style="color: #ff0000;">CC 0F 0F</span> 82 00 00</pre>
+<p>Specifically, I was interested in the following three bytes (marked in red in the EEPROM dump above). According to the datasheet, here is what the values in these three locations mean:</p>
+<pre><strong>FA</strong>: bit 1 controls whether RS232/UART can be enabled by pressing REL. 
+    <strong>0</strong>: function unavailable
+    <strong>1</strong>: long press on REL key enables RS232/UART
+
+<strong>FB</strong>: time before auto power-off (1~255 minutes, auto power-off is disabled if set to 0). 
+<strong>FC</strong>: backlight on duration (1~255 seconds, if set to 0 it's controlled by the backlight button only)
+</pre>
+<p>From the EEPROM dump we can see that the current settings on my meter are as below:</p>
+<pre><strong>FA</strong>: CC (1100 11<span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;">0</span></span>0) RS232/UART disabled
+<strong>FB</strong>: 0F (0000 1111) 15 minutes
+<strong>FC</strong>: 0F (0000 1111) 15 seconds
+</pre>
+<div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Ads Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8717552292636871"
+     data-ad-slot="4378572341"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>To enable entering RS232 mode with a long press on the REL button, the byte in <strong>FA</strong> needs to be changed to <strong>CE</strong> (1100 1110). And to extend the on time for the backlight or to increase the auto power off duration of the meter I can change the bytes in <strong>FB</strong> or <strong>FC</strong>. I wanted to set the backlight auto off time to 30 seconds so I set the content in address <strong>FC</strong> to <strong>1E</strong>. The default 15 minutes auto power-off is fine for me so I left it alone. But for some people a longer on idle time might be more preferable and in that case the desired value in minutes for the time before automatic power down can be written to address <strong>FB</strong>. </p>
+<p>Once the UART functionality is enabled, a long press on REL will turn on the PC-link indicator on the LCD as shown here:</p>
+<p><a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton.jpg" rel="attachment wp-att-13107"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton-400x300.jpg" alt="uarton" width="400" height="300" class="aligncenter size-medium wp-image-13107" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/uarton.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+<p>Next, I wired an IR diode onto the D9 footprint. Conveniently, the PCB already has the pads designation for the diode and it even has the current limiting resistor soldered in place. The IR diode can be mounted through the small hole on the back cover.  Since the receiving IR diode will be placed directly against the transmitting diode, range and interference are not of any concerns. Thus I could get away with just a simple IR diode instead of an IR module that modulate the RS232 signal onto a higher carrier frequency.</p>
+<table align="center">
+<tr>
+<td>
+<a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader.jpg" rel="attachment wp-att-13114"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader-400x300.jpg" alt="irheader" width="400" height="300" class="aligncenter size-medium wp-image-13114" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/irheader.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+</td>
+<td>
+<a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3.jpg" rel="attachment wp-att-13105"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3-400x300.jpg" alt="mod3" width="400" height="300" class="aligncenter size-medium wp-image-13105" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod3.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+</td>
+</tr>
+</table>
+<p>To make life a bit easier when mating an external IR receiver for data logging, I glued a ring magnet around the IR transmitter inside the case. I also had an identical piece of magnet glued on the receiver sensor side so the they can be connected magnetically.</p>
+<p>In the picture below, you can see the receiver I made. I used a section of rubber standoff for housing the IR diode and the resistor. This isolated datalink works quite well and can be connected/disconnected easily. While you could just connect the UART-to-USB adapter directly to the serial output of the meter directly, it is highly recommended that you use proper opto-isolation as otherwise you could damage the DUT, the meter and even the connected computer if the measurement is not done correctly.</p>
+<table align="center">
+<tr>
+<td>
+<a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1.jpg" rel="attachment wp-att-13110"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1-400x300.jpg" alt="mod1" width="400" height="300" class="aligncenter size-medium wp-image-13110" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod1.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+</td>
+<td>
+<a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter.jpg" rel="attachment wp-att-13108"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter-400x300.jpg" alt="iradapter" width="400" height="300" class="aligncenter size-medium wp-image-13108" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradapter.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+</td>
+</tr>
+</table>
+<p>The receiver side is just an IR photodiode and a resistor since there is no demodulation involved and the transmission range is negligible. The value of the resistor is chosen such that the output voltage swings close to either supply rail. Cable length is not critical since the data rate is very low, at only 2400 bps. The transmitter and receiver circuits are included below for reference. Note that the IR emitting diode is connected between the driving signal and the positive rail, so in idle mode the IR is off. Because of this, the IR photo diode needs to be ground referenced so that the RX signal going into the UART/USB module remains high when idle.</p>
+<p><a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/IRLink.png" rel="attachment wp-att-13149"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/IRLink-400x202.png" alt="IRLink" width="400" height="202" class="aligncenter size-medium wp-image-13149" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/IRLink-400x202.png 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/IRLink-768x388.png 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/IRLink-900x455.png 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/IRLink.png 922w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+<p>I cut a hole in the rubber holster directly over the opening where the IR emitting diode is mounted so the receiver can be connected and disconnected with ease. </p>
+<table align="center">
+<tr>
+<td>
+<a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2.jpg" rel="attachment wp-att-13109"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2-400x300.jpg" alt="mod2" width="400" height="300" class="aligncenter size-medium wp-image-13109" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/mod2.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+</td>
+<td>
+<a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted.jpg" rel="attachment wp-att-13106"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted-400x300.jpg" alt="iradaptermounted" width="400" height="300" class="aligncenter size-medium wp-image-13106" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted-400x300.jpg 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted-200x150.jpg 200w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted-768x576.jpg 768w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted-900x675.jpg 900w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/iradaptermounted.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+</td>
+</tr>
+</table>
+<p>To communicate with a PC I used <a href="http://sigrok.org/">sigrok</a>&#8216;s command line utility sigrok-cli. The available driver for DTIM0660L is velleman-dvm4100. Here is the command for outputting measurement results continuously on my Linux box: </p>
+<pre class="brush: bash; title: ; notranslate" title="">
+sigrok-cli --driver velleman-dvm4100:conn=/dev/ttyUSB0 --continuous
+</pre>
+<p>And here is a picture showing the output when the meter was set to the mV range. The output uses &#8220;V&#8221; for all voltage ranges, so the only difference among different ranges is the resolution.</p>
+<p><a href="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/sigrokoutput.png" rel="attachment wp-att-13104"><img src="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/sigrokoutput-400x282.png" alt="sigrokoutput" width="400" height="282" class="aligncenter size-medium wp-image-13104" srcset="http://www.kerrywong.com/blog/wp-content/uploads/2016/03/sigrokoutput-400x282.png 400w, http://www.kerrywong.com/blog/wp-content/uploads/2016/03/sigrokoutput.png 459w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+<p>Besides the above mentioned functionalities, there are many other hackable parameters (such as range switching threshold, high voltage/high current warning threshold, UART format etc.) You can take a look at the manual linked from sigrok&#8217;s site for more information. If there is enough interests, I can translate the datasheet into English and post it on my website. So if you are interested, please let me know.</p>
+<div style="margin: 0px auto; text-align: center;">
+<iframe width="500" height="281" src="https://www.youtube.com/embed/8VPsWI963p8?feature=oembed" frameborder="0" allowfullscreen></iframe>
+</div>
+<h4>Update</h4>
+<p>The translated datasheet for DTM0660 can be found <a href="http://www.kerrywong.com/2016/04/03/dtm0660-datasheet-translated/">here</a>.</p>
+<!-- Start Sociable --><div class="sociable"><div class="sociable_tagline">Be Sociable, Share!</div><ul class='clearfix'><li><a title="Twitter" class="option1_16" style="background-position:-144px -16px" rel="nofollow" target="_blank" href="http://twitter.com/intent/tweet?text=Hacking%20DTM0660L%20Based%20Multimeters%20-%20http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F%20  "></a></li><li><a title="Facebook" class="option1_16" style="background-position:-48px 0px" rel="nofollow" target="_blank" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;t=Hacking%20DTM0660L%20Based%20Multimeters"></a></li><li><a title="email" class="option1_16" style="background-position:-80px 0px" rel="nofollow" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to&su=Hacking%20DTM0660L%20Based%20Multimeters&body=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&ui=2&tf=1&shva=1"></a></li><li><a class="option1_16" style="cursor:pointer;background-position:-64px 0px" rel="nofollow" title="Add to favorites - doesn't work in Chrome"  onClick="javascript:AddToFavorites();"></a></li><li><a title="StumbleUpon" class="option1_16" style="background-position:-112px -16px" rel="nofollow" target="_blank" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&title=Hacking%20DTM0660L%20Based%20Multimeters"></a></li><li><a title="Delicious" class="option1_16" style="background-position:-16px 0px" rel="nofollow" target="_blank" href="http://delicious.com/post?url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters&amp;notes=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li><li><a title="Google Reader" class="option1_16" style="background-position:-112px 0px" rel="nofollow" target="_blank" href="http://www.google.com/reader/link?url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters&amp;srcURL=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;srcTitle=Kerry+D.+Wong+"></a></li><li><a title="LinkedIn" class="option1_16" style="background-position:-144px 0px" rel="nofollow" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters&amp;source=Kerry+D.+Wong+&amp;summary=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li><li><a title="BlinkList" class="option1_16" style="background-position:0px 0px" rel="nofollow" target="_blank" href="http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;Title=Hacking%20DTM0660L%20Based%20Multimeters"></a></li><li><a style="cursor:pointer" rel="nofollow" onMouseOut="fixOnMouseOut(document.getElementById('sociable-post-13079'), event, 'post-13079')" onMouseOver="more(this,'post-13079')"><img style='padding-top: 0;margin-top:-2px' src='http://www.kerrywong.com/blog/wp-content/plugins/sociable/images/more.png'></a></li></ul><div onMouseout="fixOnMouseOut(this,event,'post-13079')" id="sociable-post-13079" style="display:none;">   
+
+    <div style="top: auto; left: auto; display: block;" id="sociable">
+
+
+
+		<div class="popup">
+
+			<div class="content">
+
+				<ul><li style="heigth:16px;width:16px"><a title="Myspace" class="option1_16" style="background-position:0px -16px" rel="nofollow" target="_blank" href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;t=Hacking%20DTM0660L%20Based%20Multimeters"></a></li><li style="heigth:16px;width:16px"><a title="Digg" class="option1_16" style="background-position:-32px 0px" rel="nofollow" target="_blank" href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters&amp;bodytext=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li><li style="heigth:16px;width:16px"><a title="Reddit" class="option1_16" style="background-position:-64px -16px" rel="nofollow" target="_blank" href="http://reddit.com/submit?url=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters"></a></li><li style="heigth:16px;width:16px"><a title="Google Bookmarks" class="option1_16" style="background-position:-96px 0px" rel="nofollow" target="_blank" href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters&amp;annotation=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li><li style="heigth:16px;width:16px"><a title="HackerNews" class="option1_16" style="background-position:-128px 0px" rel="nofollow" target="_blank" href="http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;t=Hacking%20DTM0660L%20Based%20Multimeters"></a></li><li style="heigth:16px;width:16px"><a title="MSNReporter" class="option1_16" style="background-position:-176px 0px" rel="nofollow" target="_blank" href="http://reporter.es.msn.com/?fn=contribute&amp;Title=Hacking%20DTM0660L%20Based%20Multimeters&amp;URL=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;cat_id=6&amp;tag_id=31&amp;Remark=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li><li style="heigth:16px;width:16px"><a title="Sphinn" class="option1_16" style="background-position:-96px -16px" rel="nofollow" target="_blank" href="http://sphinn.com/index.php?c=post&amp;m=submit&amp;link=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F"></a></li><li style="heigth:16px;width:16px"><a title="Posterous" class="option1_16" style="background-position:-32px -16px" rel="nofollow" target="_blank" href="http://posterous.com/share?linkto=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;title=Hacking%20DTM0660L%20Based%20Multimeters&amp;selection=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li><li style="heigth:16px;width:16px"><a title="Tumblr" class="option1_16" style="background-position:-128px -16px" rel="nofollow" target="_blank" href="http://www.tumblr.com/share?v=3&amp;u=http%3A%2F%2Fwww.kerrywong.com%2F2016%2F03%2F19%2Fhacking-dtm0660l-based-multimeters%2F&amp;t=Hacking%20DTM0660L%20Based%20Multimeters&amp;s=In%20my%20previous%20post%2C%20I%20did%20a%20review%20of%20the%206000%20counts%20ennoLogic%20eM860T%20true%20RMS%20multimeter.%20This%20meter%20is%20based%20on%20a%20signal%20chip%20design%20using%20the%20versatile%20DTM0660L%20DMM%20chip.%20Besides%20the%20ennoLogic%20eM860T%2C%20several%20other%20multimeters%20such%20as%20UNI-T%20139C"></a></li></ul>			
+
+			</div>        
+
+		  <a style="cursor:pointer" onclick="hide_sociable('post-13079',true)" class="close">
+
+		  <img onclick="hide_sociable('post-13079',true)" title="close" src="http://www.kerrywong.com/blog/wp-content/plugins/sociable/images/closelabel.png">
+
+		  </a>
+
+		</div>
+
+	</div> 
+
+  </div></div><div class='sociable' style='float:none'><ul class='clearfix'><li id="Twitter_Counter"><a href="https://twitter.com/share" data-text="Hacking DTM0660L Based Multimeters - http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/" data-url="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li><li id="Facebook_Counter"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/&send=false&layout=button_count&show_faces=false&action=like&colorscheme=light&font" scrolling="no" frameborder="0" style="border:none; overflow:hidden;height:32px;width:100px" allowTransparency="true"></iframe></li><li id="Google_p"><g:plusone annotation="bubble" href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/" size="medium"></g:plusone></li><li id="LinkedIn_Counter"><script src="http://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/" data-counter="right"></script></li><li id="StumbleUpon_Counter"><script src="http://www.stumbleupon.com/hostedbadge.php?s=2&r=http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/"></script></li></ul></div><!-- End Sociable -->							</div>
+	
+			<div class="postmetadata">
+				<div class="postmetadata">
+					Tags: <a href="http://www.kerrywong.com/tag/24c02a/" rel="tag">24C02A</a>, <a href="http://www.kerrywong.com/tag/dtm0660l/" rel="tag">DTM0660L</a>, <a href="http://www.kerrywong.com/tag/em860t/" rel="tag">eM860T</a>, <a href="http://www.kerrywong.com/tag/ennologic/" rel="tag">ennoLogic</a>, <a href="http://www.kerrywong.com/tag/rs232/" rel="tag">RS232</a>, <a href="http://www.kerrywong.com/tag/sigrok/" rel="tag">sigrok</a>, <a href="http://www.kerrywong.com/tag/tekpower-tp40/" rel="tag">Tekpower TP40</a>, <a href="http://www.kerrywong.com/tag/uart/" rel="tag">UART</a>, <a href="http://www.kerrywong.com/tag/uni-t-139c/" rel="tag">UNI-T 139C</a>, <a href="http://www.kerrywong.com/tag/velleman-dvm4100/" rel="tag">Velleman DVM4100</a><br />					Category: <a href="http://www.kerrywong.com/category/electronics/" rel="category tag">Electronics</a>					&nbsp;|&nbsp;&nbsp;<a href="#respond">Comment</a> (<a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/feed/">RSS</a>)					&nbsp;|&nbsp;&nbsp;<a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/trackback/ " rel="trackback">Trackback</a>									 </div>
+			</div>
+		</div>
+<div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Ads Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8717552292636871"
+     data-ad-slot="4378572341"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+	
+<!-- You can start editing here. -->
+
+<div id="comments">
+
+	<h3>58 Comments </h3>
+	<div class="navigation" style="clear:both">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+	<div style="clear:both"></div>
+	<ol class="commentlist">
+			<li class="comment even thread-even depth-1 parent" id="comment-859810">
+				<div id="div-comment-859810" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a8a61af773710a9c493cb2c1f2b1c633?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a8a61af773710a9c493cb2c1f2b1c633?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">hugo</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-859810">
+			March 27, 2016 at 2:02 pm</a>		</div>
+
+		<p>Hi Kerry,</p>
+<p>How did you know the address of 24C02A eeprom is 0x50 ?</p>
+<p>Thank you</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=859810#respond' onclick='return addComment.moveForm( "div-comment-859810", "859810", "respond", "13079" )' aria-label='Reply to hugo'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2 parent" id="comment-859844">
+				<div id="div-comment-859844" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-859844">
+			March 27, 2016 at 7:03 pm</a>		</div>
+
+		<p>Hi Hugo,</p>
+<p>According to the datasheet:</p>
+<blockquote><p>Chip selection is<br />
+then accomplished through software by setting the bits<br />
+A0, A1 and A2 of the slave address to the corresponding<br />
+hard-wired logic levels of the selected 24C01A/02A/04A.<br />
+After generating a START condition, the bus master<br />
+transmits the slave address consisting of a 4-bit device<br />
+code (1010) for the 24C01A/02A/04A, followed by the<br />
+chip address bits A0, A1 and A2.</p></blockquote>
+<p>For a single chip configuration (which is the case when using a single chip), A0 A1 and A2 are all 0 so the 7 bit I2C address is 0101 0000 which is 0x50.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=859844#respond' onclick='return addComment.moveForm( "div-comment-859844", "859844", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-3 parent" id="comment-923957">
+				<div id="div-comment-923957" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/bdfecd0a3d6b9e3ffe099465c14bb3b8?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bdfecd0a3d6b9e3ffe099465c14bb3b8?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Ivan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-923957">
+			January 2, 2017 at 3:46 pm</a>		</div>
+
+		<p>where are the populated pins(if any) to write to the eeprom??</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=923957#respond' onclick='return addComment.moveForm( "div-comment-923957", "923957", "respond", "13079" )' aria-label='Reply to Ivan'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-4 parent" id="comment-924049">
+				<div id="div-comment-924049" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-924049">
+			January 3, 2017 at 8:36 pm</a>		</div>
+
+		<p>The header is towards the top of the image (next to the calibration switch). SW1 and SW2 are connected to those pins.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=924049#respond' onclick='return addComment.moveForm( "div-comment-924049", "924049", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-5 parent" id="comment-924068">
+				<div id="div-comment-924068" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/bdfecd0a3d6b9e3ffe099465c14bb3b8?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bdfecd0a3d6b9e3ffe099465c14bb3b8?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Ivan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-924068">
+			January 3, 2017 at 10:01 pm</a>		</div>
+
+		<p>Ohh, thanks for the fast reply. I was wondering how to use it, and do you still have to set the eeprom pin to ground?<br />
+  And how do you calibrate the meter with the switch, and would you recommend this meter or is there a safer option for around the same price??<br />
+  Best regards Ivan</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-5" id="comment-924140">
+				<div id="div-comment-924140" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-924140">
+			January 4, 2017 at 8:08 pm</a>		</div>
+
+		<p>Yes, you need to tie the WP pin to ground. There are quite a few meters based on the same chip and in theory they can all be hacked, but this one is the only one I have. I do like this meter a lot (except for the slow ohm range). Victor VC921 and some UNI-T models are also based on the same chip.</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="pingback even thread-odd thread-alt depth-1" id="comment-861148">
+				<div id="div-comment-861148" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href='http://hackaday.com/2016/04/02/hack-your-multimeter/' rel='external nofollow' class='url'>Hack Your Multimeter | Hackaday</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-861148">
+			April 2, 2016 at 4:01 pm</a>		</div>
+
+		<p>[&#8230;] Wong] decided to take matters into his own hands and hack a serial-out port into his relatively inexpensive multimeter, giving him the ability to record anything the meter can [&#8230;]</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=861148#respond' onclick='return addComment.moveForm( "div-comment-861148", "861148", "respond", "13079" )' aria-label='Reply to Hack Your Multimeter | Hackaday'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="pingback odd alt thread-even depth-1" id="comment-861155">
+				<div id="div-comment-861155" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href='http://geekcasual.com/2016/04/02/hack-your-multimeter/' rel='external nofollow' class='url'>Hack Your Multimeter | Geek Casual</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-861155">
+			April 2, 2016 at 4:29 pm</a>		</div>
+
+		<p>[&#8230;] Wong] decided to take matters into his own hands and hack a serial-out port into his relatively inexpensive multimeter, giving him the ability to record anything the meter can [&#8230;]</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=861155#respond' onclick='return addComment.moveForm( "div-comment-861155", "861155", "respond", "13079" )' aria-label='Reply to Hack Your Multimeter | Geek Casual'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-861184">
+				<div id="div-comment-861184" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/7adfc376bc46b4b2c0b73bcb29810934?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7adfc376bc46b4b2c0b73bcb29810934?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Diogo Mendes</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-861184">
+			April 2, 2016 at 11:07 pm</a>		</div>
+
+		<p>I jumped at my UT-139C and changed the backlight duration to 60sec, no luck on enabling rs232, but there are no pads for it. Thank you very, very much.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=861184#respond' onclick='return addComment.moveForm( "div-comment-861184", "861184", "respond", "13079" )' aria-label='Reply to Diogo Mendes'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2 parent" id="comment-861274">
+				<div id="div-comment-861274" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-861274">
+			April 3, 2016 at 9:29 am</a>		</div>
+
+		<p>Hi Diogo,</p>
+<p>I am in the process of translating the datasheet and I will post it in the next couple of days when I am done. You should be able to wire the Rx/Tx line directly from the chip if they are not wired out already. Stay tuned!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=861274#respond' onclick='return addComment.moveForm( "div-comment-861274", "861274", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-3 parent" id="comment-861276">
+				<div id="div-comment-861276" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/7adfc376bc46b4b2c0b73bcb29810934?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7adfc376bc46b4b2c0b73bcb29810934?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Diogo Mendes</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-861276">
+			April 3, 2016 at 9:37 am</a>		</div>
+
+		<p>I did experiment changing 0xFA to EE, as the original value was EC but the REL button does not show any new function.</p>
+<p>I did translate (badly) the datasheet:<br />
+Download word document, export as pdf and translate the file in google translate. I do appreciate if you get a less garbled version than with this method. :)</p>
+<p>Also thanks for the code, I couldn&#8217;t have done without it, it was the first time I experimented with I2C. :)</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=861276#respond' onclick='return addComment.moveForm( "div-comment-861276", "861276", "respond", "13079" )' aria-label='Reply to Diogo Mendes'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-4" id="comment-861320">
+				<div id="div-comment-861320" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-861320">
+			April 3, 2016 at 7:12 pm</a>		</div>
+
+		<p>Hi Diogo,</p>
+<p>I went ahead and translated the datasheet, you can find it here: <a href="http://www.kerrywong.com/2016/04/03/dtm0660-datasheet-translated/" rel="nofollow">http://www.kerrywong.com/2016/04/03/dtm0660-datasheet-translated/</a></p>
+<p>Let me know if you have any questions. Thanks.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=861320#respond' onclick='return addComment.moveForm( "div-comment-861320", "861320", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-862159">
+				<div id="div-comment-862159" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a0ef3a6724b907e09338da1efaf7bccb?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a0ef3a6724b907e09338da1efaf7bccb?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">12458</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-862159">
+			April 9, 2016 at 10:42 pm</a>		</div>
+
+		<p>Hi Kerry,<br />
+Can you review and hack the ut139c from uni-t?</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=862159#respond' onclick='return addComment.moveForm( "div-comment-862159", "862159", "respond", "13079" )' aria-label='Reply to 12458'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2" id="comment-862216">
+				<div id="div-comment-862216" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-862216">
+			April 10, 2016 at 12:35 pm</a>		</div>
+
+		<p>I don&#8217;t have a UT139C, but it&#8217;s using the same chip so the performance should be comparable. Also, The hack would be similar as well. The feedback I got from a few folks who hacked their UT139C told me that the UT139C does not have the IR port pads in place, which means you will need to solder wires directly to the IC UART TX/RX pins.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=862216#respond' onclick='return addComment.moveForm( "div-comment-862216", "862216", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-863641">
+				<div id="div-comment-863641" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/045895dd965f7e695d71c954ef917340?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/045895dd965f7e695d71c954ef917340?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">flywheelz</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-863641">
+			April 21, 2016 at 3:02 am</a>		</div>
+
+		<p>Hi Kerry, </p>
+<p>First of all, what a neat hack and thank you for sharing with the world.</p>
+<p>Some of the guys applied the info to upgrade UT210E 2000 to 6000 counts!  Here <a href="http://www.eevblog.com/forum/testgear/a-look-at-the-uni-t-ut210e/50/" rel="nofollow">http://www.eevblog.com/forum/testgear/a-look-at-the-uni-t-ut210e/50/</a></p>
+<p>One issue is when you zero out the DC current, the unit some how reverts back to 2000 counts.  Switching back to Auto gets back to 6000 counts.  So its like its hard coded in micro or maybe uses other bytes in eeprom besides 12h-15h</p>
+<p>Any ideas why this is?</p>
+<p>Thank you.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=863641#respond' onclick='return addComment.moveForm( "div-comment-863641", "863641", "respond", "13079" )' aria-label='Reply to flywheelz'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2" id="comment-863757">
+				<div id="div-comment-863757" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-863757">
+			April 21, 2016 at 5:51 pm</a>		</div>
+
+		<p>Interesting&#8230; I didn&#8217;t see any settings in the datasheet that would be causing this behavior.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=863757#respond' onclick='return addComment.moveForm( "div-comment-863757", "863757", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-867133">
+				<div id="div-comment-867133" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/44fd5893fe4add922e6e2b847ef3614e?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/44fd5893fe4add922e6e2b847ef3614e?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Nick Maleas</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-867133">
+			May 14, 2016 at 6:05 pm</a>		</div>
+
+		<p>Hello, thanks for the article! I have ut139c. Do you know if I can stop the beep sound when I change states of themultimeter or push buttons. Is there any option for this If I change the eeprom?</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=867133#respond' onclick='return addComment.moveForm( "div-comment-867133", "867133", "respond", "13079" )' aria-label='Reply to Nick Maleas'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2" id="comment-867138">
+				<div id="div-comment-867138" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-867138">
+			May 14, 2016 at 6:58 pm</a>		</div>
+
+		<p>Hi Nick,</p>
+<p>I don&#8217;t think there&#8217;s a setting for that (at least I couldn&#8217;t find it in the datasheet).</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=867138#respond' onclick='return addComment.moveForm( "div-comment-867138", "867138", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-870321">
+				<div id="div-comment-870321" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/110168b6a797abb5309a647f2d51554c?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/110168b6a797abb5309a647f2d51554c?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">mematyi</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-870321">
+			June 1, 2016 at 3:36 pm</a>		</div>
+
+		<p>Hi!</p>
+<p>I have the UNI-T UT139C, and I am very curious to convert it, but:</p>
+<p>I tried to track the UART lines from the IC, but they use these pins for another role. They are going into the circuitry of the dmm, and to the leds, etc.</p>
+<p>Anyway, they are not unused.</p>
+<p>Do you think it still permits the conversion, or this feature makes it un-convertable?</p>
+<p>mematyi</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=870321#respond' onclick='return addComment.moveForm( "div-comment-870321", "870321", "respond", "13079" )' aria-label='Reply to mematyi'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2 parent" id="comment-870354">
+				<div id="div-comment-870354" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-870354">
+			June 1, 2016 at 7:22 pm</a>		</div>
+
+		<p>That was another person who commented on YouTube said as well. I don&#8217;t have a UT139C on hand, but I am curious to see how those two pins (20, 21) are used in 139C. depending on what they are used for, you may or may not be able to repurpose them.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=870354#respond' onclick='return addComment.moveForm( "div-comment-870354", "870354", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-3 parent" id="comment-870432">
+				<div id="div-comment-870432" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/110168b6a797abb5309a647f2d51554c?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/110168b6a797abb5309a647f2d51554c?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">mematyi</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-870432">
+			June 2, 2016 at 5:04 am</a>		</div>
+
+		<p>Hi!</p>
+<p>I tried to trace those pins from the controller ic, there are the pics:</p>
+<p><a href="http://imgur.com/a/QiFUH" rel="nofollow">http://imgur.com/a/QiFUH</a></p>
+<p>I am not sure if they are 100% correct, it would be great if you could see them.</p>
+<p>If i am correct, the RX pin is unused, but the TX is used for button-sensing(?).<br />
+It is strange because the manual says it is an output-pin.</p>
+<p>The original pics are from eevblog thread, 6.page.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=870432#respond' onclick='return addComment.moveForm( "div-comment-870432", "870432", "respond", "13079" )' aria-label='Reply to mematyi'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-4" id="comment-908626">
+				<div id="div-comment-908626" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3048454c0528024d36e7380680decaf6?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3048454c0528024d36e7380680decaf6?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">tisla</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-908626">
+			November 8, 2016 at 12:40 am</a>		</div>
+
+		<p>I think the IC is upside down meaning Pins 20 and 21 are in the right side. Those pins are connected to C18. Please do correct me if i&#8217;m wrong.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=908626#respond' onclick='return addComment.moveForm( "div-comment-908626", "908626", "respond", "13079" )' aria-label='Reply to tisla'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-871124">
+				<div id="div-comment-871124" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a0ef3a6724b907e09338da1efaf7bccb?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a0ef3a6724b907e09338da1efaf7bccb?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">12458</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-871124">
+			June 5, 2016 at 3:39 am</a>		</div>
+
+		<p>I tried this on my uni t 139c meter but I ended up bricking it. It turns out that the pin pitch of the IC so small that I had created a short. I removed the short by adding solder and wicking it away. Then the dmm started to wort again.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=871124#respond' onclick='return addComment.moveForm( "div-comment-871124", "871124", "respond", "13079" )' aria-label='Reply to 12458'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-874169">
+				<div id="div-comment-874169" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-874169">
+			June 27, 2016 at 12:25 pm</a>		</div>
+
+		<p>If you want a cheap multimeter to experiment with, that appears to be based on the DTM0660, you could try a Victor VC 921 pocket multimeter, but get the one with &#8220;True RMS&#8221; on the front, as there appears to be an earlier version based on a different chipset. </p>
+<p>A full set of teardown pictures are here. <a href="https://photos.google.com/share/AF1QipPykJgrz2vMySXTkFdst6YsfoTs0Mzs1vmWZXa-XQ5EGBxVeRmFiqj-jO2c44IFcA?key=T01ITXVCa015U0x5WV9UZUV6dUdiSGdXUTBENF93" rel="nofollow">https://photos.google.com/share/AF1QipPykJgrz2vMySXTkFdst6YsfoTs0Mzs1vmWZXa-XQ5EGBxVeRmFiqj-jO2c44IFcA?key=T01ITXVCa015U0x5WV9UZUV6dUdiSGdXUTBENF93</a> </p>
+<p>As you can see from the pictures, the pinout of the epoxy blob matches the DTM0660 and there is the tell tale 24c02 eerom, and even the two additional buttons needed for calibration, on the back of the PCB. </p>
+<p>When I get a spare moment, I&#8217;m going to solder a couple of wires on to the thing and see if my hunch is correct. If so, this will be the cheapest 6000 count meter with RS232 (some soldering required) on the market. :¬)</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=874169#respond' onclick='return addComment.moveForm( "div-comment-874169", "874169", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor even depth-2 parent" id="comment-874191">
+				<div id="div-comment-874191" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-874191">
+			June 27, 2016 at 7:34 pm</a>		</div>
+
+		<p>Nice! Thanks for sharing!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=874191#respond' onclick='return addComment.moveForm( "div-comment-874191", "874191", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-3 parent" id="comment-874193">
+				<div id="div-comment-874193" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-874193">
+			June 27, 2016 at 7:42 pm</a>		</div>
+
+		<p>No problem. If you do decide to explore this idea, be aware, as I stated that this applies to the version with &#8220;True RMS&#8221; stamped above the (spurious?) Cat II rating. </p>
+<p><a href="http://www.ebay.co.uk/sch/i.html?_from=R40&#038;_trksid=p2047675.m570.l1313.TR0.TRC0.H0.XVICTOR+VC921+DMM.TRS0&#038;_nkw=VICTOR+VC921+DMM&#038;_sacat=0" rel="nofollow">http://www.ebay.co.uk/sch/i.html?_from=R40&#038;_trksid=p2047675.m570.l1313.TR0.TRC0.H0.XVICTOR+VC921+DMM.TRS0&#038;_nkw=VICTOR+VC921+DMM&#038;_sacat=0</a></p>
+<p>Ad you can see if you follow this link, not all of the VC921 meters on sale are labeled as &#8220;True RMS&#8221;, and the ones that are not, may be a variant based on a different chipset.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=874193#respond' onclick='return addComment.moveForm( "div-comment-874193", "874193", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-4" id="comment-874195">
+				<div id="div-comment-874195" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-874195">
+			June 27, 2016 at 7:53 pm</a>		</div>
+
+		<p>.. cheapest I can find is <a href="http://www.ebay.co.uk/itm/182029469809?_trksid=p2055119.m1438.l2649&#038;ssPageName=STRK%3AMEBIDX%3AIT" rel="nofollow">http://www.ebay.co.uk/itm/182029469809?_trksid=p2055119.m1438.l2649&#038;ssPageName=STRK%3AMEBIDX%3AIT</a> </p>
+<p>Currently selling for US $10.89 or approximately £7.99. </p>
+<p>Assuming it is DTM0660 based, then if you turn on the RS232 out and in a IR LED from an old opto-coupler and current limiting resistor and a small ring magnet on the back and you are done. </p>
+<p>Alternatively you could perhaps replace the 2xAAA batteries with a small lipo and charger board, and shoehorn in an ESP8266 WiFi module, switched on my the RS232 flag with a mosfet/transistor to read the serial output for extra wireless fun..</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=874195#respond' onclick='return addComment.moveForm( "div-comment-874195", "874195", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-876829">
+				<div id="div-comment-876829" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-876829">
+			July 18, 2016 at 6:18 am</a>		</div>
+
+		<p>I finally got a chance to dump the eerom on my Victor VC 921 pocket multimeter. The good news is that it all looks pretty similar to the dump above. </p>
+<p>&#8212; : 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F</p>
+<p>00 : FF FF FF FF FF FF FF FF 52 00 FA 00 00 BE 03 A0<br />
+10 : 0F 68 10 7C 01 6E 50 64 4B 3C 3C 0A FF 40 FF BE<br />
+20 : 98 14 82 64 00 96 00 00 80 00 80 00 80 00 80 4E<br />
+30 : 02 09 C6 06 09 8B FF 0A 19 11 0A 09 FF 09 00 00<br />
+40 : 01 00 01 00 07 98 00 64 00 64 00 64 00 00 00 00<br />
+50 : 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 FE<br />
+60 : 7F 00 83 01 00 A1 2A 00 00 00 00 00 00 00 00 AB<br />
+70 : 7E 00 80 03 83 E0 7C 18 01 00 00 00 00 00 00 00<br />
+80 : 00 06 08 12 0B 05 0C 00 01 10 0E 0A 09 14 13 00<br />
+90 : 00 00 00 00 00 00 0D 00 02 11 0F 00 00 00 15 00<br />
+A0 : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br />
+B0 : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0D<br />
+C0 : 00 02 10 0D 00 03 20 20 00 03 20 20 00 03 10 41<br />
+D0 : 00 03 08 41 00 03 05 41 00 03 05 0D 00 02 20 00<br />
+E0 : 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00<br />
+F0 : 80 FF FF FF FF FF FF 5A C7 CC 0F 0F 80 00 00 FF</p>
+<p>The bad news is that I have lost one of the spring contacts from the rotary switch, so a little extra hacking will be needed to bring it back to life.<br />
+I&#8217;ll keep you posted.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=876829#respond' onclick='return addComment.moveForm( "div-comment-876829", "876829", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2 parent" id="comment-876843">
+				<div id="div-comment-876843" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-876843">
+			July 18, 2016 at 8:00 am</a>		</div>
+
+		<p>I also spotted a bug in my dumper, the above dump is one byte out, so there is an FF byte missing at the start, and the last byte is nonsense. </p>
+<p>It should read.. </p>
+<p>Scanning&#8230;</p>
+<p>I2C device found at address 0x50<br />
+&#8212; : 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F</p>
+<p>00 : FF FF FF FF FF FF FF FF FF 52 00 FA 00 00 BE 03<br />
+10 : A0 0F 68 10 7C 01 6E 50 64 4B 3C 3C 0A FF 40 FF<br />
+20 : BE 98 14 82 64 00 96 00 00 80 00 80 00 80 00 80<br />
+30 : 4E 02 09 C6 06 09 8B FF 0A 19 11 0A 09 FF 09 00<br />
+40 : 00 01 00 01 00 07 98 00 64 00 64 00 64 00 00 00<br />
+50 : 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80<br />
+60 : FE 7F 00 83 01 00 A1 2A 00 00 00 00 00 00 00 00<br />
+70 : AB 7E 00 80 03 83 E0 7C 18 01 00 00 00 00 00 00<br />
+80 : 00 00 06 08 12 0B 05 0C 00 01 10 0E 0A 09 14 13<br />
+90 : 00 00 00 00 00 00 00 0D 00 02 11 0F 00 00 00 15<br />
+A0 : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br />
+B0 : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br />
+C0 : 0D 00 02 10 0D 00 03 20 20 00 03 20 20 00 03 10<br />
+D0 : 41 00 03 08 41 00 03 05 41 00 03 05 0D 00 02 20<br />
+E0 : 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80<br />
+F0 : 00 80 FF FF FF FF FF FF 5A C7 CE 0F 0F 80 00 00  </p>
+<p>Done<br />
+&#8230; Note that I have now enabled the RS232 function&#8230; next I need to see if it actually does anything.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=876843#respond' onclick='return addComment.moveForm( "div-comment-876843", "876843", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-3" id="comment-876849">
+				<div id="div-comment-876849" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-876849">
+			July 18, 2016 at 8:27 am</a>		</div>
+
+		<p>Thanks for the update Andy!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=876849#respond' onclick='return addComment.moveForm( "div-comment-876849", "876849", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-877320">
+				<div id="div-comment-877320" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-877320">
+			July 21, 2016 at 11:57 am</a>		</div>
+
+		<p>One more point, the DTM0660L appears to be so similar to the HyconTek HY12P66 as to suggest they are one and the same device, or at least one is derived from the other. The pinouts match, and the specs are almost identical. The HY12P66 has a datasheet in English too =&gt; <a href="http://www.hycontek.com/attachments/DMM/DS-HY12P65_EN.pdf" rel="nofollow">http://www.hycontek.com/attachments/DMM/DS-HY12P65_EN.pdf</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=877320#respond' onclick='return addComment.moveForm( "div-comment-877320", "877320", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-878968">
+				<div id="div-comment-878968" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/4265cb3dda159b9c84f2ced2166d5754?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4265cb3dda159b9c84f2ced2166d5754?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Trond E</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878968">
+			August 2, 2016 at 11:32 am</a>		</div>
+
+		<p>They publish a lot more than just the datasheet.</p>
+<p><a href="http://hycontek.com/e-page2-HY12P.html" rel="nofollow">http://hycontek.com/e-page2-HY12P.html</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878968#respond' onclick='return addComment.moveForm( "div-comment-878968", "878968", "respond", "13079" )' aria-label='Reply to Trond E'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-878251">
+				<div id="div-comment-878251" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878251">
+			July 28, 2016 at 5:41 am</a>		</div>
+
+		<p>I finally got a chance to try this out. A long press on the REL△HzDuty button produces as satisfying beep, and serial data starts to stream from the pin 20 pad on the board (which is not routed anywhere). I&#8217;m watching the output on my &#8216;scope with a big grin on my face. </p>
+<p>It works!</p>
+<p>If I get a few more spare moments, I&#8217;ll fit an IR LED and a 100 Ω resistor, and test it with my IR USB serial cable for my UniT.  I&#8217;ll let you know how that goes, and post the results online of course.<br />
+For now.. 99.9% working</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878251#respond' onclick='return addComment.moveForm( "div-comment-878251", "878251", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-878252">
+				<div id="div-comment-878252" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878252">
+			July 28, 2016 at 5:54 am</a>		</div>
+
+		<p>Long pressing the REL△HzDuty button also lights the &#8220;MAX&#8221; flag on the LCD when it is streaming serial data, I thought it might light the unused &#8220;LED&#8221; flag, but what the heck, nobody&#8217;s perfect. I might also look at adding a backlight, and setting it for 6000 counts. </p>
+<p>I&#8217;m liking this little toy multimeter so much that I just bought a second one. For £7 or there abouts, they are an even better toy than the 2000 count DT830x &#8220;disposable&#8221; meters, although just as dangerous if you plug them in to anything above 100V I would imagine. Despite the &#8220;CAT II&#8221; rating stamped on the front, the almost complete lack of input protection does make the Victor VC 921 a bit of hazardous for all but the lightest of duty. </p>
+<p>As a data logging Volts/Ohms/Amps/Hz/uF (and possibly temperature, watch this space for results of that mod) device, this gadget looks excellent.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878252#respond' onclick='return addComment.moveForm( "div-comment-878252", "878252", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor even depth-2" id="comment-878280">
+				<div id="div-comment-878280" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878280">
+			July 28, 2016 at 12:49 pm</a>		</div>
+
+		<p>Excellent! Thanks!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878280#respond' onclick='return addComment.moveForm( "div-comment-878280", "878280", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-878729">
+				<div id="div-comment-878729" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878729">
+			July 31, 2016 at 8:05 pm</a>		</div>
+
+		<p>I have added DTM0660 support to the excellent QtDMM DMM readout software and recorder &#8211; Get it on github -&gt; <a href="https://github.com/pingumacpenguin/QtDMM-DTM0660-Version/blob/master/README.md" rel="nofollow">https://github.com/pingumacpenguin/QtDMM-DTM0660-Version/blob/master/README.md</a> it should be relatively bug free, but let me know if you spot any issues by posting a bug on github in the usual manner.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878729#respond' onclick='return addComment.moveForm( "div-comment-878729", "878729", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor even depth-2 parent" id="comment-878866">
+				<div id="div-comment-878866" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878866">
+			August 1, 2016 at 5:02 pm</a>		</div>
+
+		<p>Hi Andy,</p>
+<p>I just downloaded and tried it out. It worked perfectly. Thanks! Wondering why you didn&#8217;t choose to contribute it back to the original project?</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878866#respond' onclick='return addComment.moveForm( "div-comment-878866", "878866", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-3" id="comment-878942">
+				<div id="div-comment-878942" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-878942">
+			August 2, 2016 at 5:41 am</a>		</div>
+
+		<p>I have tried to contact Matthias Toussaint, who is the author of QtDMM but so far not heard back from him. I figured that there was no point in my code languishing on my laptop if others could find a use for it, so I stuck it on Github in the meantime. Once Mattias responds, I suspect my changes will get ported back in to his version. Its probably easier for him if it is on github, as from there he can either get me to do a pull request to his repo, or use a merge/diff from mine. Likewise if I spot any bugs in my code, I can simply update my repo and let him know. </p>
+<p>I also need to document my hack of the Victor VC921 in case anybody else wants to play with it.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=878942#respond' onclick='return addComment.moveForm( "div-comment-878942", "878942", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-879193">
+				<div id="div-comment-879193" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-879193">
+			August 3, 2016 at 7:26 pm</a>		</div>
+
+		<p>I set the thing for 8000 counts and that also works, I&#8217;ll need to see how easy it is to add 8000 count mode to my QtDMM code, also I&#8217;ll need to try 6000 counts which my version already supports.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=879193#respond' onclick='return addComment.moveForm( "div-comment-879193", "879193", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-879339">
+				<div id="div-comment-879339" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-879339">
+			August 4, 2016 at 9:09 am</a>		</div>
+
+		<p>A quick write up and the sketch used to program the 24C02 can be found here -&gt; <a href="http://stm32duino.com/viewtopic.php?f=45&#038;t=1296&#038;p=16704#p16704" rel="nofollow">http://stm32duino.com/viewtopic.php?f=45&#038;t=1296&#038;p=16704#p16704</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=879339#respond' onclick='return addComment.moveForm( "div-comment-879339", "879339", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2" id="comment-879350">
+				<div id="div-comment-879350" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-879350">
+			August 4, 2016 at 11:31 am</a>		</div>
+
+		<p>I also uploaded the sketch to github. <a href="https://github.com/pingumacpenguin/DTM0660-flasher-arduino-sketch" rel="nofollow">https://github.com/pingumacpenguin/DTM0660-flasher-arduino-sketch</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=879350#respond' onclick='return addComment.moveForm( "div-comment-879350", "879350", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-885401">
+				<div id="div-comment-885401" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/4265cb3dda159b9c84f2ced2166d5754?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4265cb3dda159b9c84f2ced2166d5754?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Trond E</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-885401">
+			August 26, 2016 at 2:10 pm</a>		</div>
+
+		<p>According to the HY12P Family User&#8217;s Guide</p>
+<p><a href="http://hycontek.com/attachments/DMM/UG-HY12S65_EN.pdf" rel="nofollow">http://hycontek.com/attachments/DMM/UG-HY12S65_EN.pdf</a></p>
+<p>the EUART is bidirectional. See page 90.</p>
+<p>&#8220;The EUART can be configured<br />
+as a full-duplex asynchronous system that can communicate with peripheral devices,<br />
+such as CRT terminals and personal computers.&#8221;</p>
+<p>What kind of fun can be made of this?</p>
+<p>They mention &#8220;Auto-wake-up on character reception&#8221; so I guess some kind of computer controlled multimeter is possible?</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=885401#respond' onclick='return addComment.moveForm( "div-comment-885401", "885401", "respond", "13079" )' aria-label='Reply to Trond E'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-908852">
+				<div id="div-comment-908852" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/9f3f2448c73e7649a7ec17eb7ef9ea6b?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9f3f2448c73e7649a7ec17eb7ef9ea6b?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Kent</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-908852">
+			November 8, 2016 at 11:42 am</a>		</div>
+
+		<p>Hi Kerry,</p>
+<p>This info may have been in the above information, but I can&#8217;t seem to locate it.  I was wondering what the part numbers for D1 and D2 so I can order them.  Not familiar with using IR diodes, but want to try this hack.  Thanks, Kent.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=908852#respond' onclick='return addComment.moveForm( "div-comment-908852", "908852", "respond", "13079" )' aria-label='Reply to Kent'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor odd alt depth-2" id="comment-908968">
+				<div id="div-comment-908968" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-908968">
+			November 8, 2016 at 8:43 pm</a>		</div>
+
+		<p>Hi Kent,</p>
+<p>You can use pretty much any IR emitting diode and IR photodiode. For instance, you can use Fairchild&#8217;s QED123 IR diode and TT Electronics OP906 photodiode.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=908968#respond' onclick='return addComment.moveForm( "div-comment-908968", "908968", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-931406">
+				<div id="div-comment-931406" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/6b49b5ff0aa66b3d75cd6f8879e1203d?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6b49b5ff0aa66b3d75cd6f8879e1203d?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Frederik</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-931406">
+			February 16, 2017 at 8:58 am</a>		</div>
+
+		<p>Hi Kerry,</p>
+<p>my UT139c has an issue with pretty low contrast of the LCD. If I understand it correctly, the LCD biasing is set via configuration in the EEPROM for dtm0660 instead of surface mounted resistors. Is that correct? If so, what options do you see in changing the bias to fix the low contrast and bad viewing angle?</p>
+<p>I have also reached out to Uni-Trend about this, but did not get a reaction so far.</p>
+<p>Thank you and best regards,<br />
+Frederik</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=931406#respond' onclick='return addComment.moveForm( "div-comment-931406", "931406", "respond", "13079" )' aria-label='Reply to Frederik'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-931969">
+				<div id="div-comment-931969" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3f498b3e4aab21e7f24229fd6969ed95?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Andy Hull</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-931969">
+			February 19, 2017 at 7:04 am</a>		</div>
+
+		<p>I suspect you will need to source the original Chinese language data sheets and try to to a bit of guess work to figure out where in the eeprom the contrast value lives.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=931969#respond' onclick='return addComment.moveForm( "div-comment-931969", "931969", "respond", "13079" )' aria-label='Reply to Andy Hull'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-935777">
+				<div id="div-comment-935777" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/997d2dd6c41268324ee74530fcf96819?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/997d2dd6c41268324ee74530fcf96819?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Kbird</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-935777">
+			March 21, 2017 at 10:58 pm</a>		</div>
+
+		<p>1st&#8230;. thx Kerry &#8230;.</p>
+<p>With the Uni-T 139C you do no need to add wires etc to the Chip itself, you can use an IC Clip as Fredrick (above) did (FrozenFrog on EEVBlog) or you can add a 5pin Female Header to the Pogo Pin Breakout area on the RH side of the PCB like I did (no need to remove LCD) as I could not get a Clip locally. I have a revision 4 PCB, I am not sure if they are all the same and all have the 5 holes above the 2 CAL Port holes or not? I have left the Female Header in place for future Mods if needed as well.</p>
+<p>More Info on wire connections etc over at EEVBlog and some Pics.</p>
+<p><a href="http://www.eevblog.com/forum/testgear/uni-t-ut139c-lcd-biasing-(schematics-avail)/msg1165035/#msg1165035" rel="nofollow">http://www.eevblog.com/forum/testgear/uni-t-ut139c-lcd-biasing-(schematics-avail)/msg1165035/#msg1165035</a></p>
+<p>KB</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=935777#respond' onclick='return addComment.moveForm( "div-comment-935777", "935777", "respond", "13079" )' aria-label='Reply to Kbird'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-940391">
+				<div id="div-comment-940391" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/aea27a44aeb97297db9223f1cc3f58d6?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/aea27a44aeb97297db9223f1cc3f58d6?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">alex</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-940391">
+			April 21, 2017 at 9:38 am</a>		</div>
+
+		<p>Hi! Can anyone confirm that RS232 can be enabled on their UNI-T UT139C? From the pictures it looks like the pins are used for something else. Thank you.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=940391#respond' onclick='return addComment.moveForm( "div-comment-940391", "940391", "respond", "13079" )' aria-label='Reply to alex'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2" id="comment-940402">
+				<div id="div-comment-940402" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/aea27a44aeb97297db9223f1cc3f58d6?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/aea27a44aeb97297db9223f1cc3f58d6?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">alex</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-940402">
+			April 21, 2017 at 11:52 am</a>		</div>
+
+		<p>After some more reading, there are some people that say that DTM0660L is a clone of HY12P65 made by Hycon. The datasheet can be downloaded from their website (file name &#8220;DS-HY12P65-EN.pdf&#8221;). Some interesting things:</p>
+<p>&#8211; In the features list, the manufacturer says the chip has 6K Word OTP (One Time Programmable) program memory so most likely the chips inside the meters have firmware written by the company that makes them e.g. by UNI-T. </p>
+<p>&#8211; Pin 20 (TX) has its description like this &#8220;Digital input/output&#8221;. So just like in microcontrollers, the firmware can enable and disable pins or change their function by writing into certain registers.</p>
+<p>Because of the reasons above, most likely that in UT139C, UNI-T have set the pin as input and they use it for the keys. This means that probably the RS232 cannot be enabled on this multimeter, even if it is enabled in the EEPROM. I really wanted to get this meter for the rs232 hack, but I guess I&#8217;ll have to get something else. Unless someone manages to somehow dump and reprogram the memory, it&#8217;s not looking good for this model.</p>
+<p>Thank you Mr. Wong for all the info. I&#8217;ll keep reading.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=940402#respond' onclick='return addComment.moveForm( "div-comment-940402", "940402", "respond", "13079" )' aria-label='Reply to alex'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-953547">
+				<div id="div-comment-953547" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/5e1442c2dcd5b3b22777ad23835a167a?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5e1442c2dcd5b3b22777ad23835a167a?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Peter</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-953547">
+			July 23, 2017 at 9:01 pm</a>		</div>
+
+		<p>Hi Kerry, thanks for the post. I&#8217;m troubleshooting a UT139C with this chip whose temperature measuring doesn&#8217;t work. Low caps (nF) and high resistors (MOhm) aren&#8217;t measured well neither, other seem fine. Taking a look at the schematic in the chinese datasheet I think it may be a faulty dtm0660 chip. Any suggestions? Thank you.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=953547#respond' onclick='return addComment.moveForm( "div-comment-953547", "953547", "respond", "13079" )' aria-label='Reply to Peter'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor even depth-2" id="comment-953549">
+				<div id="div-comment-953549" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-953549">
+			July 23, 2017 at 9:27 pm</a>		</div>
+
+		<p>I believe DTM0660 has internal temperature sensor so if it doesn&#8217;t work it&#8217;s likely that the corresponding circuitry is damaged, although I don&#8217;t have an UT139C to verify.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=953549#respond' onclick='return addComment.moveForm( "div-comment-953549", "953549", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-967168">
+				<div id="div-comment-967168" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Dan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-967168">
+			September 11, 2017 at 1:58 am</a>		</div>
+
+		<p>I picked up a General Smarttools Bluetooth Multi-meter Part number TS04. It also has the DTM0660L chip with a priority Bluetooth module(It only worked with their software). Inside I found a 3.3v TTL serial header (Pin 20 on the DTM0660L) and was able to plug in a generic 3.3v to USB serial adaptor. So far so good.<br />
+I appear to get output at 9600 baud using the arduinoIDE monitor.<br />
+BSPP:sendData 08\s\n\0⸮⸮⸮<br />
+BSPP:sendData 08\s\n\0⸮⸮⸮</p>
+<p>I tried the Sigrok-CLI commands on Windows7 and I&#8217;m guessing my TS04 is outputting a different protocol then your ennoLogic eM860T with the same chip.<br />
+I have read the DTM0660L may be able to output in a few different formats. <a href="https://sigrok.org/wiki/Multimeter_ICs#Fortune_Semiconductor_FS9721_LP3" rel="nofollow">https://sigrok.org/wiki/Multimeter_ICs#Fortune_Semiconductor_FS9721_LP3</a></p>
+<p>C:\Program Files\sigrok\sigrok-cli&gt;sigrok-cli &#8211;driver velleman-dvm4100:conn=/com7 &#8211;continuous<br />
+sr: serial: Didn&#8217;t find a valid packet (read 63 bytes).<br />
+No devices found</p>
+<p>If you don&#8217;t mind could you get a snipit of your meter in a raw serial dump for me to compare ?</p>
+<p>Thanks</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=967168#respond' onclick='return addComment.moveForm( "div-comment-967168", "967168", "respond", "13079" )' aria-label='Reply to Dan'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2 parent" id="comment-967173">
+				<div id="div-comment-967173" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Dan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-967173">
+			September 11, 2017 at 2:31 am</a>		</div>
+
+		<p>I should mention the Bluetooth module is a BDE-BLEM201P. The bluetooth seems to be only accessible from there Android and Iphone App (no PC option).</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=967173#respond' onclick='return addComment.moveForm( "div-comment-967173", "967173", "respond", "13079" )' aria-label='Reply to Dan'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-3 parent" id="comment-967177">
+				<div id="div-comment-967177" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Dan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-967177">
+			September 11, 2017 at 2:48 am</a>		</div>
+
+		<p>Here is a hex dump of the protocol. All the interesting stuff is happening after the n\<br />
+29 Bytes in the stream</p>
+<p>Measuring 0.000vDC<br />
+SPP:sendData 08\s\n\0                                                  æëëû..             B.<br />
+53 50 50 3A 73 65 6E 64 44 61 74 61 20 30 38 5C 73 5C 6E 5C 30        E6 EB EB FB 0B 01   42 01</p>
+<p>Measuring 1.287VDC<br />
+SPP:sendData 08\s\n\0                                                 .ºí&#8230;              B.<br />
+53 50 50 3A 73 65 6E 64 44 61 74 61 20 30 38 5C 73 5C 6E 5C 30        06 BA ED 8F 0A 00   42 01</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=967177#respond' onclick='return addComment.moveForm( "div-comment-967177", "967177", "respond", "13079" )' aria-label='Reply to Dan'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor even depth-4" id="comment-967448">
+				<div id="div-comment-967448" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-967448">
+			September 11, 2017 at 7:22 pm</a>		</div>
+
+		<p>I just did a trace with </p>
+<p>sigrok-cli &#8211;driver velleman-dvm4100:conn=/dev/ttyUSB0 &#8211;continuous</p>
+<p>and the raw output is:<br />
+4F 5B 6E 7B 8E 9B A0 B0 C0 D2 E0 F1 1A 2E 3B<br />
+4F 5B 6E 7B 8E 9B A0 B0 C0 D2 E0 F1 1A 2E 3B<br />
+4F 5B 6E 7B 8E 9B A0 B0 C0 D2 E0 F1 1A 2E 3B</p>
+<p>and the actual output is:<br />
+P1: 0.000000 V DC<br />
+P1: 0.000000 V DC<br />
+P1: 0.000000 V DC</p>
+<p>Hope it helps!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=967448#respond' onclick='return addComment.moveForm( "div-comment-967448", "967448", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-967524">
+				<div id="div-comment-967524" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Dan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-967524">
+			September 12, 2017 at 12:04 am</a>		</div>
+
+		<p>Thanks. I&#8217;m going to try to read the eprom contect (i&#8217;ll post it when I&#8217;m done. Unfortunately the 24C02 is directly tied to the DTM0660L so I don&#8217;t see any other way except to avoid I2C bus conflicts without removing the 28C02. Wish me luck, might take me a bit, I&#8217;m new to some of this :)</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=967524#respond' onclick='return addComment.moveForm( "div-comment-967524", "967524", "respond", "13079" )' aria-label='Reply to Dan'>Reply to this comment</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-kwong bypostauthor even depth-2" id="comment-967675">
+				<div id="div-comment-967675" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/93ef16c224cb6191dec1ab33abf497bd?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-967675">
+			September 12, 2017 at 6:22 pm</a>		</div>
+
+		<p>You can read from the 24C02 directly without desoldering it from the board (power it separately and don&#8217;t turn on the DMM).</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=967675#respond' onclick='return addComment.moveForm( "div-comment-967675", "967675", "respond", "13079" )' aria-label='Reply to kwong'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-968058">
+				<div id="div-comment-968058" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a91ca8d5deff78f2108c5508c432f790?s=96&#038;d=mm&#038;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Dan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/#comment-968058">
+			September 14, 2017 at 8:28 pm</a>		</div>
+
+		<p>General Smart-tool Bluetooth TS-04 Multi-meter, eprom dump.</p>
+<p>Well I pulled it and soldered on some leads and have it sitting on the Arduino (I&#8217;m good with a soldering iron).<br />
+Here is the dump. A number of setting are very different then the spec sheet you translated, but the bulk of them are the same (had them highlighted, but lost the formatting).</p>
+<p>FF FF FF FF FF FF FF FF FF 52 00 B4 00 B0 B4 03<br />
+10 17 68 10 7C 01 64 4B 64 4B FF FF 0A FF 40 FF<br />
+37 98 E6 80 64 00 96 00 00 80 82 80 AC 79 00 80<br />
+4E 02 09 BE 01 09 FD FE 0A 8B 18 0A 8E 01 0A 00<br />
+00 01 00 01 00 07 98 00 64 00 64 00 64 00 00 00<br />
+00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80<br />
+A7 7F 00 83 01 00 9D 2A 00 00 00 00 00 00 00 00<br />
+00 80 00 80 00 80 E0 7C 18 01 00 00 00 00 00 00<br />
+00 00 00 00 00 1F 1E 00 00 10 15 0C 0E 20 07 05<br />
+00 00 00 00 00 00 00 00 00 11 13 0D 0F 00 09 06<br />
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 0A 00<br />
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br />
+0D 00 02 10 0D 00 03 20 20 00 03 20 20 00 03 10<br />
+41 00 03 08 41 00 03 05 41 00 03 05 0D 00 02 20<br />
+00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80<br />
+00 80 06 FF D8 27 FF FF 5A C7 CC 0F 0F 96 00 00</p>
+<p>The big thing I noticed was FAh is CC (Serial output disabled). I assumpted the Bluetooth button was REL since I got an RS232 output when switched on.</p>
+<p>Hope you find it interesting, and again thanks.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/?replytocom=968058#respond' onclick='return addComment.moveForm( "div-comment-968058", "968058", "respond", "13079" )' aria-label='Reply to Dan'>Reply to this comment</a></div>
+				</div>
+		</li><!-- #comment-## -->
+	</ol>
+	<div class="navigation" style="clear:both">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+	<div style="clear:both"></div> 
+
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div class="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/03/19/hacking-dtm0660l-based-multimeters/#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://www.kerrywong.com/blog/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='13079' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8ba08bde01" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="38"/></p><p><input type="checkbox" name="comment_mail_notify" id="comment_mail_notify" value="comment_mail_notify" checked="checked" style="width: auto;" /><label for="comment_mail_notify">Notify me of follow-up comments via e-mail</label></p>
+</form>
+
+</div>
+</div>
+
+
+	
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			
+			<li id="calendar-2" class="widget widget_calendar"><h2 class="widgettitle">Calendar</h2>
+<div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>March 2016</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://www.kerrywong.com/2016/02/">&laquo; Feb</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next"><a href="http://www.kerrywong.com/2016/04/">Apr &raquo;</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td><a href="http://www.kerrywong.com/2016/03/01/" aria-label="Posts published on March 1, 2016">1</a></td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td><a href="http://www.kerrywong.com/2016/03/13/" aria-label="Posts published on March 13, 2016">13</a></td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td><a href="http://www.kerrywong.com/2016/03/19/" aria-label="Posts published on March 19, 2016">19</a></td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="3">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></li>
+<li id="text-2" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Ads Sidebar 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8717552292636871"
+     data-ad-slot="9000575148"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</li>
+<li id="categories-367344331" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>
+		<ul>
+	<li class="cat-item cat-item-228"><a href="http://www.kerrywong.com/category/avrarduino/" >AVR/Arduino</a> (97)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.kerrywong.com/category/coding/" title="Software Development, Programming">Coding</a> (133)
+</li>
+	<li class="cat-item cat-item-223"><a href="http://www.kerrywong.com/category/electronics/" >Electronics</a> (173)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.kerrywong.com/category/linuxbsd/" >Linux/BSD</a> (34)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.kerrywong.com/category/miscellaneous/" title="Miscellaneous">Miscellaneous</a> (189)
+</li>
+	<li class="cat-item cat-item-413"><a href="http://www.kerrywong.com/category/msp430g2/" >MSP430G2</a> (10)
+</li>
+	<li class="cat-item cat-item-320"><a href="http://www.kerrywong.com/category/pic/" >PIC</a> (4)
+</li>
+	<li class="cat-item cat-item-355"><a href="http://www.kerrywong.com/category/product-reviews/" >Product Reviews</a> (17)
+</li>
+	<li class="cat-item cat-item-509"><a href="http://www.kerrywong.com/category/raspberry-pi/" >Raspberry Pi</a> (5)
+</li>
+	<li class="cat-item cat-item-525"><a href="http://www.kerrywong.com/category/teardowns/" >Teardowns</a> (40)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.kerrywong.com/category/technology/" title="Technology">Technology</a> (57)
+</li>
+		</ul>
+</li>
+<li id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widgettitle">Tools &#038; Libraries</h2>
+<div class="menu-tools-libraries-container"><ul id="menu-tools-libraries" class="menu"><li id="menu-item-7167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7167"><a href="http://www.kerrywong.com/mcp2210-library-reference/">MCP2210 Library</a></li>
+<li id="menu-item-7260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7260"><a href="http://www.kerrywong.com/bcalc/">BCalc &#8212; A Hex/Bin/Dec Converter And Calculator</a></li>
+</ul></div></li>
+<li id="most_popular_posts-3" class="widget widget_most_popular_posts">
+<h2 class="widgettitle">Most Popular Posts</h2>
+
+<ul>	<li><a href="http://www.kerrywong.com/2011/01/22/a-sensitive-diy-ultrasonic-range-sensor/">A Sensitive DIY Ultrasonic Range Sensor</a> (265)</li>
+	<li><a href="http://www.kerrywong.com/2013/10/24/building-a-constant-currentconstant-power-electronic-load/">Building a Constant Current/Constant Power Electronic Load</a> (203)</li>
+	<li><a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/">AVR LC Meter With Frequency Measurement</a> (198)</li>
+	<li><a href="http://www.kerrywong.com/2013/12/02/a-digitally-controlled-dual-tracking-power-supply-ii/">A Digitally Controlled Dual Tracking Power Supply -- II</a> (85)</li>
+	<li><a href="http://www.kerrywong.com/2012/04/18/ad7705ad7706-library-revisited/">AD7705/AD7706 Library Revisited</a> (73)</li>
+	<li><a href="http://www.kerrywong.com/2012/03/21/a-self-balancing-robot-iii/">A Self-Balancing Robot – III</a> (62)</li>
+	<li><a href="http://www.kerrywong.com/2016/03/19/hacking-dtm0660l-based-multimeters/">Hacking DTM0660L Based Multimeters</a> (58)</li>
+	<li><a href="http://www.kerrywong.com/2012/08/27/reverse-engineering-the-syma-s107g-ir-protocol/">Reverse Engineering the Syma S107G IR Protocol</a> (56)</li>
+	<li><a href="http://www.kerrywong.com/2010/05/16/arduino-development-using-netbeans/">Arduino Development Using NetBeans</a> (51)</li>
+	<li><a href="http://www.kerrywong.com/2012/04/30/5a-lab-power-supply-with-digital-readout/">5A Lab Power Supply With Digital Readout</a> (38)</li>
+</ul>
+</li>
+
+<li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
+		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='http://www.kerrywong.com/2017/11/'> November 2017 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2017/10/'> October 2017 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2017/09/'> September 2017 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2017/08/'> August 2017 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2017/07/'> July 2017 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2017/06/'> June 2017 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2017/05/'> May 2017 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2017/04/'> April 2017 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2017/03/'> March 2017 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2017/02/'> February 2017 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2017/01/'> January 2017 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/12/'> December 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/11/'> November 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/10/'> October 2016 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2016/09/'> September 2016 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2016/08/'> August 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/07/'> July 2016 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2016/06/'> June 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/05/'> May 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/04/'> April 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/03/'> March 2016 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2016/02/'> February 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2016/01/'> January 2016 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2015/12/'> December 2015 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2015/11/'> November 2015 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2015/10/'> October 2015 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2015/09/'> September 2015 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2015/08/'> August 2015 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2015/07/'> July 2015 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2015/06/'> June 2015 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2015/05/'> May 2015 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2015/04/'> April 2015 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2015/03/'> March 2015 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2015/02/'> February 2015 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2015/01/'> January 2015 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2014/12/'> December 2014 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2014/11/'> November 2014 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2014/10/'> October 2014 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2014/09/'> September 2014 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2014/08/'> August 2014 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2014/07/'> July 2014 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2014/06/'> June 2014 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2014/05/'> May 2014 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2014/04/'> April 2014 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2014/03/'> March 2014 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2014/02/'> February 2014 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2014/01/'> January 2014 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2013/12/'> December 2013 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2013/11/'> November 2013 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2013/10/'> October 2013 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2013/09/'> September 2013 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2013/08/'> August 2013 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2013/06/'> June 2013 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2013/05/'> May 2013 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2013/04/'> April 2013 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2013/03/'> March 2013 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2013/02/'> February 2013 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2013/01/'> January 2013 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2012/12/'> December 2012 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2012/11/'> November 2012 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2012/10/'> October 2012 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2012/09/'> September 2012 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2012/08/'> August 2012 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2012/07/'> July 2012 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2012/06/'> June 2012 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2012/05/'> May 2012 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2012/04/'> April 2012 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2012/03/'> March 2012 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2012/02/'> February 2012 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2012/01/'> January 2012 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2011/12/'> December 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/11/'> November 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/10/'> October 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/09/'> September 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/08/'> August 2011 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2011/07/'> July 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/06/'> June 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/05/'> May 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/04/'> April 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/03/'> March 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2011/02/'> February 2011 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2011/01/'> January 2011 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/12/'> December 2010 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/11/'> November 2010 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/10/'> October 2010 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/09/'> September 2010 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/08/'> August 2010 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/07/'> July 2010 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2010/06/'> June 2010 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2010/05/'> May 2010 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2010/04/'> April 2010 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2010/03/'> March 2010 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2010/02/'> February 2010 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2010/01/'> January 2010 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2009/12/'> December 2009 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2009/11/'> November 2009 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2009/10/'> October 2009 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2009/09/'> September 2009 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2009/08/'> August 2009 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2009/07/'> July 2009 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2009/06/'> June 2009 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2009/05/'> May 2009 &nbsp;(7)</option>
+	<option value='http://www.kerrywong.com/2009/04/'> April 2009 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2009/03/'> March 2009 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2009/02/'> February 2009 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2009/01/'> January 2009 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2008/12/'> December 2008 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2008/11/'> November 2008 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2008/10/'> October 2008 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2008/09/'> September 2008 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2008/08/'> August 2008 &nbsp;(8)</option>
+	<option value='http://www.kerrywong.com/2008/07/'> July 2008 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2008/06/'> June 2008 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2008/05/'> May 2008 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2008/04/'> April 2008 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2008/03/'> March 2008 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2008/02/'> February 2008 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2008/01/'> January 2008 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2007/12/'> December 2007 &nbsp;(7)</option>
+	<option value='http://www.kerrywong.com/2007/11/'> November 2007 &nbsp;(8)</option>
+	<option value='http://www.kerrywong.com/2007/10/'> October 2007 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2007/09/'> September 2007 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2007/08/'> August 2007 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2007/07/'> July 2007 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2007/06/'> June 2007 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2007/05/'> May 2007 &nbsp;(8)</option>
+	<option value='http://www.kerrywong.com/2007/04/'> April 2007 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2007/03/'> March 2007 &nbsp;(7)</option>
+	<option value='http://www.kerrywong.com/2007/02/'> February 2007 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2007/01/'> January 2007 &nbsp;(8)</option>
+	<option value='http://www.kerrywong.com/2006/12/'> December 2006 &nbsp;(7)</option>
+	<option value='http://www.kerrywong.com/2006/11/'> November 2006 &nbsp;(7)</option>
+	<option value='http://www.kerrywong.com/2006/10/'> October 2006 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2006/09/'> September 2006 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2006/08/'> August 2006 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2006/07/'> July 2006 &nbsp;(1)</option>
+	<option value='http://www.kerrywong.com/2006/06/'> June 2006 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2006/05/'> May 2006 &nbsp;(7)</option>
+	<option value='http://www.kerrywong.com/2006/04/'> April 2006 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2006/03/'> March 2006 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2006/02/'> February 2006 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2006/01/'> January 2006 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2005/12/'> December 2005 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2005/11/'> November 2005 &nbsp;(3)</option>
+	<option value='http://www.kerrywong.com/2005/10/'> October 2005 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2005/09/'> September 2005 &nbsp;(4)</option>
+	<option value='http://www.kerrywong.com/2005/08/'> August 2005 &nbsp;(6)</option>
+	<option value='http://www.kerrywong.com/2005/07/'> July 2005 &nbsp;(2)</option>
+	<option value='http://www.kerrywong.com/2005/06/'> June 2005 &nbsp;(5)</option>
+	<option value='http://www.kerrywong.com/2005/05/'> May 2005 &nbsp;(5)</option>
+
+		</select>
+		</li>
+<li id="linkcat-399" class="widget widget_links"><h2 class="widgettitle">My Favorite Sites</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.arduino.cc/forum/" title="Arduino Forum" target="_blank">Arduino Forum</a></li>
+<li><a href="http://www.schematics.com" title="Schematics is the language of electronics. It provides a concise and comprehensive diagrammatic description of a circuit. Schematics.com allows users to connect and share designs and ideas in a like-minded community." target="_blank">Circuit Diagram</a></li>
+<li><a href="http://dangerousprototypes.com/" title="Dangerous Prototypes" target="_blank">Dangerous Prototypes</a></li>
+<li><a href="http://www.eevblog.com/" title="Electronic Engineering Video Blog" target="_blank">EEVBlog</a></li>
+<li><a href="http://www.eeweb.com/electronics-forum/" title="EEWeb Electrical Engineering Forum" target="_blank">Electrical Engineering Forum</a></li>
+<li><a href="http://www.electronics-lab.com/" title="Electronics-Lab" target="_blank">Electronics Lab</a></li>
+<li><a href="http://www.electroniq.net" title="Electroniq.net electronics projects and circuit diagrams" target="_blank">Electroniq.net electronics projects and circuit diagrams</a></li>
+<li><a href="http://hackaday.com/" title="Hack A Day" target="_blank">Hack A Day</a></li>
+<li><a href="http://hackedgadgets.com/" title="Hacked Gadgets" target="_blank">Hacked Gadgets</a></li>
+
+	</ul>
+</li>
+
+<li id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widgettitle">Recent Comments</h2>
+<ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://www.ecostaticinc.com' rel='external nofollow' class='url'>Nelson Pizarro</a></span> on <a href="http://www.kerrywong.com/2016/11/20/bertanspellman-225-20r-hv-power-supply-teardown/comment-page-1/#comment-985978">Bertan/Spellman 225-20R HV Power Supply Teardown</a></li><li class="recentcomments"><span class="comment-author-link">Piotr</span> on <a href="http://www.kerrywong.com/2012/08/02/the-dreaded-cannot-connect-to-st-link-error-message/comment-page-1/#comment-982532">The Dreaded &#8220;Cannot connect to ST-LINK!&#8221; Error Message</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://robthefiddler.net/2017/11/21/negistor-experiment/' rel='external nofollow' class='url'>Negistor Experiment &#8211; Rob The Fiddler</a></span> on <a href="http://www.kerrywong.com/2014/03/19/bjt-in-reverse-avalanche-mode/comment-page-1/#comment-982414">BJT In Reverse Avalanche Mode</a></li><li class="recentcomments"><span class="comment-author-link">Larry</span> on <a href="http://www.kerrywong.com/2012/08/22/maxiscan-ms300-odb-ii-reader-teardown-2/comment-page-1/#comment-981737">MaxiScan MS300 ODB II Reader Teardown</a></li><li class="recentcomments"><span class="comment-author-link">arjit</span> on <a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/comment-page-2/#comment-981648">AVR LC Meter With Frequency Measurement</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></span> on <a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/comment-page-2/#comment-981475">AVR LC Meter With Frequency Measurement</a></li><li class="recentcomments"><span class="comment-author-link">Abu-Hafss</span> on <a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/comment-page-2/#comment-981452">AVR LC Meter With Frequency Measurement</a></li><li class="recentcomments"><span class="comment-author-link">Carlos Vargas</span> on <a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/comment-page-2/#comment-981350">AVR LC Meter With Frequency Measurement</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.kerrywong.com' rel='external nofollow' class='url'>kwong</a></span> on <a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/comment-page-2/#comment-981349">AVR LC Meter With Frequency Measurement</a></li><li class="recentcomments"><span class="comment-author-link">Carlos Vargas</span> on <a href="http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/comment-page-2/#comment-981333">AVR LC Meter With Frequency Measurement</a></li></ul></li>
+<li id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2>
+<div class="tagcloud"><a href="http://www.kerrywong.com/tag/74hc595/" class="tag-cloud-link tag-link-237 tag-link-position-1" style="font-size: 8.9411764705882pt;" aria-label="74HC595 (5 items)">74HC595</a>
+<a href="http://www.kerrywong.com/tag/555/" class="tag-cloud-link tag-link-446 tag-link-position-2" style="font-size: 9.7647058823529pt;" aria-label="555 (6 items)">555</a>
+<a href="http://www.kerrywong.com/tag/adda/" class="tag-cloud-link tag-link-242 tag-link-position-3" style="font-size: 10.352941176471pt;" aria-label="AD/DA (7 items)">AD/DA</a>
+<a href="http://www.kerrywong.com/tag/algorithm/" class="tag-cloud-link tag-link-8 tag-link-position-4" style="font-size: 14.588235294118pt;" aria-label="Algorithm (17 items)">Algorithm</a>
+<a href="http://www.kerrywong.com/tag/arduino/" class="tag-cloud-link tag-link-229 tag-link-position-5" style="font-size: 22pt;" aria-label="Arduino (76 items)">Arduino</a>
+<a href="http://www.kerrywong.com/tag/arduino-due/" class="tag-cloud-link tag-link-657 tag-link-position-6" style="font-size: 8.9411764705882pt;" aria-label="Arduino Due (5 items)">Arduino Due</a>
+<a href="http://www.kerrywong.com/tag/aspnet/" class="tag-cloud-link tag-link-82 tag-link-position-7" style="font-size: 16.352941176471pt;" aria-label="ASP.Net (25 items)">ASP.Net</a>
+<a href="http://www.kerrywong.com/tag/atmega328/" class="tag-cloud-link tag-link-288 tag-link-position-8" style="font-size: 9.7647058823529pt;" aria-label="ATMega328 (6 items)">ATMega328</a>
+<a href="http://www.kerrywong.com/tag/atmega328p/" class="tag-cloud-link tag-link-231 tag-link-position-9" style="font-size: 21.058823529412pt;" aria-label="Atmega328P (63 items)">Atmega328P</a>
+<a href="http://www.kerrywong.com/tag/avr/" class="tag-cloud-link tag-link-230 tag-link-position-10" style="font-size: 12.470588235294pt;" aria-label="AVR (11 items)">AVR</a>
+<a href="http://www.kerrywong.com/tag/c/" class="tag-cloud-link tag-link-9 tag-link-position-11" style="font-size: 18.470588235294pt;" aria-label="C++ (38 items)">C++</a>
+<a href="http://www.kerrywong.com/tag/csharp/" class="tag-cloud-link tag-link-83 tag-link-position-12" style="font-size: 20.705882352941pt;" aria-label="C Sharp (C#) (59 items)">C Sharp (C#)</a>
+<a href="http://www.kerrywong.com/tag/dac/" class="tag-cloud-link tag-link-307 tag-link-position-13" style="font-size: 8.9411764705882pt;" aria-label="DAC (5 items)">DAC</a>
+<a href="http://www.kerrywong.com/tag/dasblog/" class="tag-cloud-link tag-link-141 tag-link-position-14" style="font-size: 8.9411764705882pt;" aria-label="dasBlog (5 items)">dasBlog</a>
+<a href="http://www.kerrywong.com/tag/data-logging/" class="tag-cloud-link tag-link-263 tag-link-position-15" style="font-size: 9.7647058823529pt;" aria-label="Data Logging (6 items)">Data Logging</a>
+<a href="http://www.kerrywong.com/tag/ds3232/" class="tag-cloud-link tag-link-262 tag-link-position-16" style="font-size: 8.9411764705882pt;" aria-label="DS3232 (5 items)">DS3232</a>
+<a href="http://www.kerrywong.com/tag/gridview/" class="tag-cloud-link tag-link-86 tag-link-position-17" style="font-size: 8.9411764705882pt;" aria-label="GridView (5 items)">GridView</a>
+<a href="http://www.kerrywong.com/tag/i2c/" class="tag-cloud-link tag-link-247 tag-link-position-18" style="font-size: 13.294117647059pt;" aria-label="I2C (13 items)">I2C</a>
+<a href="http://www.kerrywong.com/tag/lcd/" class="tag-cloud-link tag-link-139 tag-link-position-19" style="font-size: 8.9411764705882pt;" aria-label="LCD (5 items)">LCD</a>
+<a href="http://www.kerrywong.com/tag/linear-power-supply/" class="tag-cloud-link tag-link-484 tag-link-position-20" style="font-size: 8.9411764705882pt;" aria-label="Linear Power Supply (5 items)">Linear Power Supply</a>
+<a href="http://www.kerrywong.com/tag/linux/" class="tag-cloud-link tag-link-18 tag-link-position-21" style="font-size: 16.352941176471pt;" aria-label="Linux (25 items)">Linux</a>
+<a href="http://www.kerrywong.com/tag/matlab/" class="tag-cloud-link tag-link-11 tag-link-position-22" style="font-size: 8pt;" aria-label="MATLAB (4 items)">MATLAB</a>
+<a href="http://www.kerrywong.com/tag/mcp2210/" class="tag-cloud-link tag-link-463 tag-link-position-23" style="font-size: 10.352941176471pt;" aria-label="MCP2210 (7 items)">MCP2210</a>
+<a href="http://www.kerrywong.com/tag/msp-exp430g2/" class="tag-cloud-link tag-link-412 tag-link-position-24" style="font-size: 9.7647058823529pt;" aria-label="MSP-EXP430G2 (6 items)">MSP-EXP430G2</a>
+<a href="http://www.kerrywong.com/tag/msp430-launchpad/" class="tag-cloud-link tag-link-411 tag-link-position-25" style="font-size: 11.529411764706pt;" aria-label="MSP430 LaunchPad (9 items)">MSP430 LaunchPad</a>
+<a href="http://www.kerrywong.com/tag/msp430g2/" class="tag-cloud-link tag-link-736 tag-link-position-26" style="font-size: 10.352941176471pt;" aria-label="MSP430G2 (7 items)">MSP430G2</a>
+<a href="http://www.kerrywong.com/tag/msp430g2231/" class="tag-cloud-link tag-link-425 tag-link-position-27" style="font-size: 9.7647058823529pt;" aria-label="MSP430G2231 (6 items)">MSP430G2231</a>
+<a href="http://www.kerrywong.com/tag/multi-threading/" class="tag-cloud-link tag-link-81 tag-link-position-28" style="font-size: 10.941176470588pt;" aria-label="Multi-threading (8 items)">Multi-threading</a>
+<a href="http://www.kerrywong.com/tag/open-source/" class="tag-cloud-link tag-link-189 tag-link-position-29" style="font-size: 10.941176470588pt;" aria-label="Open Source (8 items)">Open Source</a>
+<a href="http://www.kerrywong.com/tag/physical-computing/" class="tag-cloud-link tag-link-232 tag-link-position-30" style="font-size: 8.9411764705882pt;" aria-label="Physical Computing (5 items)">Physical Computing</a>
+<a href="http://www.kerrywong.com/tag/q9450/" class="tag-cloud-link tag-link-64 tag-link-position-31" style="font-size: 10.941176470588pt;" aria-label="Q9450 (8 items)">Q9450</a>
+<a href="http://www.kerrywong.com/tag/reflection/" class="tag-cloud-link tag-link-98 tag-link-position-32" style="font-size: 10.352941176471pt;" aria-label="Reflection (7 items)">Reflection</a>
+<a href="http://www.kerrywong.com/tag/reverse-engineering/" class="tag-cloud-link tag-link-454 tag-link-position-33" style="font-size: 8.9411764705882pt;" aria-label="Reverse Engineering (5 items)">Reverse Engineering</a>
+<a href="http://www.kerrywong.com/tag/security/" class="tag-cloud-link tag-link-107 tag-link-position-34" style="font-size: 8.9411764705882pt;" aria-label="Security (5 items)">Security</a>
+<a href="http://www.kerrywong.com/tag/sht21/" class="tag-cloud-link tag-link-274 tag-link-position-35" style="font-size: 9.7647058823529pt;" aria-label="SHT21 (6 items)">SHT21</a>
+<a href="http://www.kerrywong.com/tag/signal-generator/" class="tag-cloud-link tag-link-278 tag-link-position-36" style="font-size: 8.9411764705882pt;" aria-label="Signal Generator (5 items)">Signal Generator</a>
+<a href="http://www.kerrywong.com/tag/spi/" class="tag-cloud-link tag-link-240 tag-link-position-37" style="font-size: 9.7647058823529pt;" aria-label="SPI (6 items)">SPI</a>
+<a href="http://www.kerrywong.com/tag/tbb/" class="tag-cloud-link tag-link-79 tag-link-position-38" style="font-size: 8pt;" aria-label="TBB (4 items)">TBB</a>
+<a href="http://www.kerrywong.com/tag/teardown/" class="tag-cloud-link tag-link-526 tag-link-position-39" style="font-size: 15.294117647059pt;" aria-label="Teardown (20 items)">Teardown</a>
+<a href="http://www.kerrywong.com/tag/temperature-sensor/" class="tag-cloud-link tag-link-244 tag-link-position-40" style="font-size: 10.352941176471pt;" aria-label="Temperature Sensor (7 items)">Temperature Sensor</a>
+<a href="http://www.kerrywong.com/tag/ubuntu/" class="tag-cloud-link tag-link-49 tag-link-position-41" style="font-size: 14.235294117647pt;" aria-label="Ubuntu (16 items)">Ubuntu</a>
+<a href="http://www.kerrywong.com/tag/ubuntu-server/" class="tag-cloud-link tag-link-15 tag-link-position-42" style="font-size: 8.9411764705882pt;" aria-label="Ubuntu Server (5 items)">Ubuntu Server</a>
+<a href="http://www.kerrywong.com/tag/vmware/" class="tag-cloud-link tag-link-29 tag-link-position-43" style="font-size: 10.352941176471pt;" aria-label="VMWare (7 items)">VMWare</a>
+<a href="http://www.kerrywong.com/tag/windows-vista/" class="tag-cloud-link tag-link-34 tag-link-position-44" style="font-size: 12.823529411765pt;" aria-label="Windows Vista (12 items)">Windows Vista</a>
+<a href="http://www.kerrywong.com/tag/wordpress/" class="tag-cloud-link tag-link-12 tag-link-position-45" style="font-size: 11.529411764706pt;" aria-label="WordPress (9 items)">WordPress</a></div>
+</li>
+		</ul>
+	</div>
+
+</div> <!-- wrapper -->
+<div id="footer">
+<p><b>Copyright &copy 2006-2017 <a href="http://www.kerrywong.com">Kerry D. Wong</a>. All rights reserved.</b></p>
+	<a href="http://www.kerrywong.com/feed/">Entries (RSS)</a> and <a href="http://www.kerrywong.com/comments/feed/">Comments (RSS)</a>. Valid <a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer"><abbr title="Cascading Style Sheets">CSS</abbr></a>.<br />
+	Powered by <a href="http://wordpress.org/" title="Powered by WordPress.">WordPress</a>. Original theme by <a href="http://wordpress.org/extend/themes/fluid-blue">srinig</a>.<br />
+	<!-- 74 queries. 0.338 seconds. -->
+	<!-- Powered by WPtouch: 3.7.8 --><script type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCpp.js?ver=3.0.9b'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushBash.js?ver=3.0.9b'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.kerrywong.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.kerrywong.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.all();
+</script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-includes/js/comment-reply.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.kerrywong.com/blog/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+<script async="async" type='text/javascript' src='http://www.kerrywong.com/blog/wp-content/plugins/akismet/_inc/form.js?ver=4.0.1'></script>
+</div>
+</div> <!-- page -->
+</body>
+</html>
+	

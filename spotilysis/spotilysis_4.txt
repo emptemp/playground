@@ -1,0 +1,249 @@
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	David Watts	0.847	0.38	140.882	0.0388	0.246	3.25e-06	4	0.618	9	150160	-7.599	0.82	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Death of a Clown	0.661	0.266	80.819	0.0312	0.0877	0	4	0.541	0	181840	-7.252	0.706	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Two Sisters	0.684	0.0748	114.218	0.0323	0.131	2.05e-05	4	0.533	2	119133	-6.841	0.541	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	No Return - Stereo	0.465	0.114	138.189	0.0287	0.134	5.91e-05	4	0.606	6	119733	-13.387	0.409	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Harry Rag - Stereo	0.624	0.0428	75.041	0.0648	0.211	0	4	0.689	7	134573	-8.277	0.968	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Tin Soldier Man - Stereo	0.629	0.0724	132.112	0.0417	0.628	0.000529	4	0.732	9	167400	-7.23	0.594	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Situation Vacant - Stereo	0.71	0.178	119.154	0.0713	0.0143	2.49e-05	4	0.533	4	194733	-8.737	0.44	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Love Me Till the Sun Shines - Stereo	0.729	0.0638	99.074	0.143	0.0293	0	4	0.504	9	194600	-9.428	0.846	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Lazy Old Sun - Stereo	0.715	0.346	103.745	0.0463	0.0907	0	4	0.503	0	166293	-8.753	0.365	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Afternoon Tea - Stereo	0.573	0.0616	112.861	0.0358	0.435	0	4	0.652	9	204827	-8.47	0.525	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Funny Face - Stereo	0.573	0.0886	126.66	0.142	0.397	1.87e-05	4	0.688	2	135960	-8.438	0.667	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	End of the Season	0.52	0.315	106.046	0.0351	0.34	0	4	0.479	4	176667	-8.937	0.342	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Waterloo Sunset - Stereo	0.692	0.172	107.958	0.0246	0.253	0	4	0.517	1	193293	-7.273	0.482	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Act Nice and Gentle - Mono	0.665	0.0644	79.266	0.0261	0.0481	0.000493	4	0.652	9	157600	-8.073	0.842	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Autumn Almanac	0.551	0.0617	118.901	0.0411	0.452	2.2e-06	4	0.666	9	183733	-7.6	0.674	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Susannah's Still Alive	0.872	0.208	110.803	0.0424	0.311	0	4	0.573	2	140427	-6.008	0.714	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Wonderboy (Bonus Track) [Stereo Version]	0.68	0.213	118.327	0.0273	0.3	0	4	0.572	7	167627	-7.007	0.903	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Polly (Bonus Track) [Mono Version]	0.854	0.28	115.216	0.0385	0.573	0.00424	4	0.673	7	169400	-6.778	0.959	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Lincoln County	0.628	0.223	148.24	0.0293	0.249	0	4	0.468	7	189893	-5.88	0.815	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	There's No Life Without Love	0.535	0.107	82.743	0.0245	0.198	0.484	4	0.59	8	121440	-12.552	0.821	
+﻿The Kinks	Something Else By The Kinks (Bonus Track Edition)	Lazy Old Sun - Bonus Track	0.641	0.175	103.963	0.0344	0.281	1.38e-06	4	0.527	0	175000	-9.49	0.341	
+Cream	Disraeli Gears (Remastered)	Strange Brew	0.398	0.273	106.265	0.0303	0.556	6.91e-06	4	0.62	2	166600	-15.676	0.665	
+Cream	Disraeli Gears (Remastered)	Sunshine Of Your Love	0.481	0.118	115.078	0.0384	0.475	6.57e-05	4	0.684	2	250000	-12.59	0.781	
+Cream	Disraeli Gears (Remastered)	World Of Pain	0.303	0.215	106.606	0.0288	0.43	0.0119	4	0.438	2	182600	-17.656	0.646	
+Cream	Disraeli Gears (Remastered)	Dance The Night Away	0.608	0.0777	127.855	0.0399	0.00425	0.00266	4	0.348	9	214440	-13.209	0.634	
+Cream	Disraeli Gears (Remastered)	Blue Condition	0.176	0.0923	79.921	0.0314	0.649	0.000181	4	0.526	0	209400	-17.473	0.575	
+Cream	Disraeli Gears (Remastered)	Tales Of Brave Ulysses	0.411	0.047	105.659	0.075	0.0637	1.28e-06	4	0.523	0	166360	-13.371	0.262	
+Cream	Disraeli Gears (Remastered)	SWLABR	0.507	0.206	124.215	0.0397	0.353	0	4	0.57	4	151533	-11.103	0.863	
+Cream	Disraeli Gears (Remastered)	We're Going Wrong	0.168	0.564	132.01	0.0331	0.687	0.05	3	0.346	11	207160	-19.76	0.121	
+Cream	Disraeli Gears (Remastered)	Outside Woman Blues	0.491	0.284	113.487	0.0479	0.619	4.04e-05	4	0.648	9	144933	-13.517	0.956	
+Cream	Disraeli Gears (Remastered)	Take It Back	0.495	0.336	120.631	0.0512	0.0995	0	4	0.608	2	185467	-13.121	0.716	
+Cream	Disraeli Gears (Remastered)	Mother's Lament	0.117	0.175	95.222	0.163	0.941	0	4	0.528	7	107573	-17.237	0.597	
+Vampire Weekend	Vampire Weekend	Mansard Roof (Album)	0.699	0.219	165.222	0.145	0.341	0.000181	4	0.53	5	127667	-4.25	0.747	
+Vampire Weekend	Vampire Weekend	Oxford Comma (Album)	0.717	0.044	119.907	0.0498	0.111	0.00123	4	0.692	0	195733	-4.226	0.973	
+Vampire Weekend	Vampire Weekend	A-Punk (Album)	0.821	0.153	174.923	0.0539	0.0102	0.0438	4	0.551	2	137760	-4.489	0.847	
+Vampire Weekend	Vampire Weekend	Cape Cod Kwassa Kwassa (Album)	0.515	0.127	104.999	0.0418	0.843	0.0652	4	0.853	2	214707	-7.134	0.755	
+Vampire Weekend	Vampire Weekend	M79 (Album)	0.602	0.29	113.014	0.0397	0.14	0.00422	4	0.774	7	255760	-6.931	0.95	
+Vampire Weekend	Vampire Weekend	Campus (Album)	0.704	0.0849	162.959	0.0658	0.22	0.0872	4	0.637	7	176467	-5.818	0.623	
+Vampire Weekend	Vampire Weekend	Bryn (Album)	0.751	0.316	179.696	0.0409	0.0508	0.0249	3	0.511	2	133173	-4.686	0.865	
+Vampire Weekend	Vampire Weekend	One (Blake's Got A New Face) (Album)	0.568	0.0858	109.983	0.0439	0.0375	0.00211	4	0.886	9	193000	-7.841	0.731	
+Vampire Weekend	Vampire Weekend	I Stand Corrected (Album)	0.64	0.176	160.016	0.111	0.277	0.351	4	0.679	7	159760	-9.418	0.11	
+Vampire Weekend	Vampire Weekend	Walcott (Album)	0.56	0.224	160.712	0.0312	0.512	0.0151	4	0.398	5	221600	-5.448	0.599	
+Vampire Weekend	Vampire Weekend	The Kids Don't Stand A Chance (Album)	0.463	0.175	140.01	0.0365	0.291	0.568	4	0.659	0	243000	-6.251	0.88	
+Bon Iver	Bon Iver	Perth	0.457	0.307	120.019	0.0456	0.86	0.444	4	0.491	0	262080	-14.473	0.0758	
+Bon Iver	Bon Iver	Minnesota, WI	0.342	0.113	119.832	0.0418	0.968	0.304	4	0.562	0	232440	-15.524	0.512	
+Bon Iver	Bon Iver	Holocene	0.306	0.123	147.902	0.0305	0.942	0.323	4	0.379	1	336613	-14.446	0.158	
+Bon Iver	Bon Iver	Towers	0.321	0.276	91.72	0.0325	0.948	0.518	4	0.379	9	188040	-12.44	0.14	
+Bon Iver	Bon Iver	Michicant	0.161	0.105	147.492	0.0318	0.931	0.144	3	0.23	8	225733	-16.51	0.115	
+Bon Iver	Bon Iver	Hinnom, TX	0.2	0.0784	121.687	0.0534	0.973	0.471	4	0.676	9	165013	-18.65	0.596	
+Bon Iver	Bon Iver	Wash.	0.149	0.0776	163.018	0.0307	0.99	0.339	3	0.317	0	298587	-19.265	0.327	
+Bon Iver	Bon Iver	Calgary	0.46	0.634	119.959	0.0363	0.923	0.15	4	0.505	11	250200	-11.549	0.0827	
+Bon Iver	Bon Iver	Lisbon, OH	0.0209	0.087	68.191	0.0416	0.993	0.944	3	0.157	4	93360	-26.371	0.0334	
+Bon Iver	Bon Iver	Beth/Rest	0.25	0.11	128.173	0.0303	0.921	0.718	4	0.49	9	316800	-12.766	0.059	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Sherane a.k.a Master Splinter’s Daughter	0.516	0.124	83.47	0.504	0.502	0.00873	4	0.561	1	273640	-11.102	0.321	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Bitch, Don’t Kill My Vibe	0.702	0.428	134.023	0.0817	0.0135	0	4	0.59	1	310720	-9.058	0.124	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Backseat Freestyle	0.654	0.228	77.38	0.28	0.000613	0	4	0.612	1	212653	-7.568	0.651	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	The Art of Peer Pressure	0.606	0.242	94.908	0.36	0.289	0.000643	4	0.556	10	324533	-9.285	0.403	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Money Trees	0.53	0.216	71.981	0.132	0.0739	0	4	0.716	7	386907	-7.38	0.36	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Poetic Justice	0.558	0.249	135.913	0.411	0.156	0	4	0.771	6	300160	-9.993	0.649	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	good kid	0.835	0.184	87.993	0.33	0.0668	0	4	0.393	5	214120	-8.555	0.39	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	m.A.A.d city	0.722	0.447	90.928	0.259	0.0508	3.92e-06	4	0.484	2	350120	-6.804	0.226	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Swimming Pools (Drank) - Extended Version	0.484	0.601	74.039	0.423	0.127	2.25e-05	4	0.706	6	313787	-7.818	0.251	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Sing About Me, I'm Dying Of Thirst	0.758	0.137	84.515	0.46	0.287	3.94e-05	4	0.576	11	723573	-7.645	0.36	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Real	0.459	0.672	99.948	0.186	0.0302	0	4	0.652	1	443413	-12.262	0.184	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Compton	0.911	0.381	171.16	0.418	0.0749	0	4	0.328	1	248093	-4.404	0.226	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	The Recipe - Bonus Track	0.775	0.349	131.0	0.08	0.000622	0	4	0.767	11	352853	-6.98	0.505	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Black Boy Fly - Bonus Track	0.727	0.102	160.09	0.157	0.106	1.44e-06	4	0.596	1	279147	-5.344	0.59	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Now Or Never - Bonus Track	0.708	0.311	106.533	0.175	0.292	0	4	0.637	7	256213	-5.897	0.815	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Bitch, Don’t Kill My Vibe - Remix	0.785	0.32	133.625	0.268	0.0472	0	4	0.613	1	278587	-5.829	0.139	
+Kendrick Lamar	good kid, m.A.A.d city (Deluxe)	Bitch, Don’t Kill My Vibe - International Remix / Explicit Version	0.8	0.511	92.739	0.151	0.0109	0	5	0.468	1	305813	-6.672	0.0965	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Introduction By Lucas "Fats" Gonder - Live At The Apollo Theater/1962	0.3	0.723	98.903	0.396	0.73	1.08e-05	5	0.614	7	124547	-14.267	0.726	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	I'll Go Crazy - Live At The Apollo Theater/1962	0.409	0.309	107.552	0.0766	0.711	0	4	0.586	0	108920	-11.99	0.882	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Try Me - Live At The Apollo Theater/1962	0.134	0.726	113.464	0.0364	0.839	0	1	0.545	0	133840	-16.565	0.703	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Night Train - Live At The Apollo Theater/1962	0.559	0.109	176.668	0.209	0.703	0.00111	4	0.589	1	186920	-13.351	0.943	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	There Was A Time - Live At The Apollo Theater/1967	0.681	0.12	128.327	0.0461	0.282	0.0186	4	0.818	0	327253	-10.347	0.604	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Cold Sweat - Live At The Apollo Theater/1967	0.744	0.0561	124.831	0.0974	0.168	3e-05	4	0.856	7	269680	-9.673	0.723	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Please, Please, Please - Live At The Apollo Theater/1967	0.869	0.108	119.327	0.141	0.305	9.98e-05	4	0.607	0	162853	-7.39	0.583	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Sex Machine - Live At The Apollo Theater/1971	0.651	0.137	114.149	0.0741	0.386	5.37e-06	4	0.838	9	305613	-7.334	0.609	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Get Up, Get Into It, Get Involved - Live At The Apollo Theater/1971	0.909	0.213	120.284	0.0622	0.291	5.99e-05	4	0.666	2	201467	-7.689	0.698	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Soul Power - Live At The Apollo Theater/1971	0.882	0.102	115.401	0.094	0.368	0.000336	4	0.671	9	295387	-7.134	0.656	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	Hot Pants Road - Live At The Apollo Theater/1972	0.828	0.0916	112.582	0.0362	0.00817	0.641	4	0.649	2	156280	-9.86	0.767	
+James Brown	Best Of Live At The Apollo: 50th Anniversary	There It Is - Live At The Apollo Theater/1972	0.874	0.148	112.928	0.0457	0.0773	0.000364	4	0.668	9	181453	-8.858	0.876	
+The Verve	Urban Hymns	Bitter Sweet Symphony	0.889	0.463	171.121	0.0442	0.0415	0	4	0.389	9	358427	-6.546	0.516	
+The Verve	Urban Hymns	Sonnet	0.706	0.209	88.04	0.0254	0.173	0.00015	4	0.425	0	261440	-8.01	0.327	
+The Verve	Urban Hymns	The Rolling People	0.924	0.359	164.739	0.0884	0.00265	0.0016	4	0.198	9	421960	-7.805	0.485	
+The Verve	Urban Hymns	The Drugs Don't Work	0.498	0.173	77.368	0.0264	0.229	0	4	0.44	0	305067	-9.788	0.158	
+The Verve	Urban Hymns	Catching The Butterfly	0.833	0.241	92.682	0.035	0.282	0.843	4	0.382	2	386733	-9.558	0.426	
+The Verve	Urban Hymns	Neon Wilderness	0.576	0.0666	123.093	0.0351	0.153	0.487	5	0.34	4	157733	-10.797	0.0655	
+The Verve	Urban Hymns	Space And Time	0.73	0.148	164.758	0.0381	0.0388	0.0133	4	0.209	2	336640	-8.772	0.347	
+The Verve	Urban Hymns	Weeping Willow	0.776	0.0635	151.962	0.0319	0.0173	0.000111	4	0.327	4	289933	-6.642	0.465	
+The Verve	Urban Hymns	Lucky Man	0.605	0.0937	75.97	0.0312	0.358	0.000453	4	0.393	2	293493	-8.297	0.204	
+The Verve	Urban Hymns	One Day	0.474	0.127	156.004	0.0263	0.836	0.0525	4	0.447	7	303000	-9.188	0.253	
+The Verve	Urban Hymns	This Time	0.796	0.185	103.017	0.0374	0.0445	0	4	0.506	9	230907	-8.236	0.607	
+The Verve	Urban Hymns	Velvet Morning	0.571	0.0887	87.129	0.0263	0.1	0.0329	4	0.433	9	297333	-7.514	0.185	
+The Verve	Urban Hymns	Come On	0.939	0.367	171.374	0.0764	0.000323	0.000806	4	0.142	9	400182	-6.906	0.349	
+The Verve	Urban Hymns	Deep Freeze	0.626	0.625	119.396	0.0618	0.604	0.258	4	0.195	9	132171	-10.937	0.35	
+The Libertines	Up The Bracket	Vertigo	0.96	0.104	121.424	0.0605	0.0307	0	4	0.523	10	158120	-3.732	0.67	
+The Libertines	Up The Bracket	Death On The Stairs	0.954	0.0928	118.636	0.0935	0.0597	0	4	0.541	10	204200	-3.704	0.465	
+The Libertines	Up The Bracket	Horror Show	0.929	0.0809	135.148	0.136	0.0255	0	4	0.306	0	154640	-3.256	0.606	
+The Libertines	Up The Bracket	Time For Heroes	0.924	0.0136	152.51	0.0508	0.00995	0.000307	4	0.363	2	160280	-4.181	0.721	
+The Libertines	Up The Bracket	Boys In The Band	0.951	0.212	135.409	0.0875	0.0851	2.46e-05	4	0.436	10	222413	-2.73	0.556	
+The Libertines	Up The Bracket	Radio America	0.638	0.282	187.286	0.0473	0.465	0.00022	3	0.357	9	224627	-7.908	0.297	
+The Libertines	Up The Bracket	Up The Bracket	0.91	0.365	182.553	0.0718	0.0125	0	4	0.313	9	158547	-2.713	0.595	
+The Libertines	Up The Bracket	Tell The King	0.796	0.379	101.642	0.0335	0.0364	0.00234	4	0.618	7	204120	-5.086	0.472	
+The Libertines	Up The Bracket	The Boy Looked At Johnny	0.923	0.333	173.239	0.0726	0.0197	0	4	0.223	9	158067	-3.811	0.667	
+The Libertines	Up The Bracket	Begging	0.777	0.103	134.15	0.0448	0.0664	0.000829	4	0.402	11	200467	-4.684	0.264	
+The Libertines	Up The Bracket	The Good Old Days	0.759	0.123	106.434	0.0789	0.117	1.35e-05	4	0.422	9	179533	-5.179	0.541	
+The Libertines	Up The Bracket	I Get Along	0.888	0.111	188.396	0.048	0.0155	2.69e-06	4	0.242	7	173093	-3.108	0.383	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Tutti Frutti	0.591	0.0647	184.4	0.0591	0.782	0	4	0.532	0	146640	-3.81	0.962	
+Little Richard	Here's Little Richard [Remastered & Expanded]	True, Fine Mama	0.623	0.212	77.251	0.0322	0.693	0	4	0.558	7	163613	-6.559	0.945	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Can't Believe You Wanna Leave	0.48	0.0697	83.386	0.0392	0.7	0	4	0.586	7	148107	-7.111	0.968	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Ready Teddy	0.603	0.0645	202.383	0.19	0.677	0	4	0.539	5	129600	-5.603	0.975	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Baby	0.705	0.268	123.361	0.0604	0.634	0	4	0.573	3	126640	-5.07	0.895	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Slippin' and Slidin'	0.755	0.0883	175.717	0.0638	0.702	0.000947	4	0.597	0	164960	-6.085	0.964	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Long Tall Sally (The Thing)	0.598	0.0841	184.484	0.0973	0.768	0	4	0.474	5	131853	-5.023	0.905	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Miss Ann	0.538	0.149	110.702	0.0384	0.716	0	4	0.679	7	137787	-6.037	0.785	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Oh Why?	0.396	0.115	116.681	0.0639	0.778	0	4	0.682	5	130320	-7.186	0.878	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Rip It Up	0.61	0.0273	96.045	0.0643	0.647	1.73e-06	4	0.899	5	144360	-5.854	0.968	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Jenny Jenny	0.688	0.24	88.919	0.0564	0.688	0	4	0.694	5	125147	-6.93	0.835	
+Little Richard	Here's Little Richard [Remastered & Expanded]	She's Got It	0.59	0.122	112.139	0.0573	0.684	0	4	0.596	5	147867	-6.722	0.964	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Baby - Demo	0.419	0.194	96.84	0.0704	0.945	0.0342	4	0.624	0	262667	-12.334	0.665	
+Little Richard	Here's Little Richard [Remastered & Expanded]	All Night Long - Demo	0.579	0.116	115.499	0.173	0.897	0.692	1	0.483	0	170240	-7.709	0.612	
+Little Richard	Here's Little Richard [Remastered & Expanded]	Interview With Specialty Records Founder Art Rupe	0.33	0.389	73.334	0.948	0.569	0	4	0.673	1	553813	-14.26	0.765	
+The Shins	Chutes Too Narrow	Kissing The Lipless	0.439	0.108	140.278	0.033	0.227	8.78e-06	4	0.622	6	199467	-6.898	0.165	
+The Shins	Chutes Too Narrow	Mine's Not A High Horse	0.746	0.113	130.181	0.0487	0.0486	0.00108	4	0.537	2	200227	-5.785	0.606	
+The Shins	Chutes Too Narrow	So Says I	0.738	0.135	73.809	0.0444	0.0119	0	4	0.463	4	167947	-4.443	0.435	
+The Shins	Chutes Too Narrow	Young Pilgrims	0.341	0.0935	124.063	0.0333	0.782	1.31e-05	4	0.752	2	167560	-9.315	0.662	
+The Shins	Chutes Too Narrow	Saint Simon	0.536	0.108	92.72	0.0232	0.115	1.95e-06	4	0.617	3	265467	-6.258	0.428	
+The Shins	Chutes Too Narrow	Fighting In A Sack	0.902	0.0628	114.998	0.0433	0.00204	0	4	0.551	2	146667	-3.793	0.522	
+The Shins	Chutes Too Narrow	Pink Bullets	0.335	0.117	110.522	0.0297	0.131	0.000615	4	0.525	5	233333	-9.042	0.398	
+The Shins	Chutes Too Narrow	Turn A Square	0.875	0.33	126.06	0.0448	0.00543	1.17e-05	4	0.619	2	191067	-3.993	0.884	
+The Shins	Chutes Too Narrow	Gone For Good	0.691	0.0751	114.06	0.0261	0.0063	0	4	0.623	0	193507	-3.744	0.484	
+The Shins	Chutes Too Narrow	Those To Come	0.294	0.0682	127.072	0.0343	0.916	0.147	4	0.621	2	264827	-16.915	0.351	
+Muse	Black Holes And Revelations (Updated 09 version)	Take a Bow	0.708	0.707	130.21	0.0525	0.162	0.000593	3	0.242	8	275493	-5.641	0.167	
+Muse	Black Holes And Revelations (Updated 09 version)	Starlight	0.874	0.206	121.61	0.0321	0.000436	1.02e-05	4	0.55	4	240213	-4.046	0.329	
+Muse	Black Holes And Revelations (Updated 09 version)	Supermassive Black Hole	0.921	0.0877	120.0	0.0439	0.0492	0.00517	4	0.668	7	212440	-3.727	0.783	
+Muse	Black Holes And Revelations (Updated 09 version)	Map Of The Problematique	0.959	0.254	125.04	0.0414	0.000386	0.118	4	0.493	8	258066	-3.613	0.697	
+Muse	Black Holes And Revelations (Updated 09 version)	Soldier's Poem	0.408	0.364	104.212	0.0317	0.875	0.00186	3	0.534	2	124706	-12.67	0.492	
+Muse	Black Holes And Revelations (Updated 09 version)	Invincible	0.808	0.184	92.591	0.0433	0.0159	0.0287	4	0.226	0	301386	-5.608	0.195	
+Muse	Black Holes And Revelations (Updated 09 version)	Assassin	0.961	0.108	124.715	0.145	0.00133	0.00335	4	0.351	7	211133	-3.942	0.4	
+Muse	Black Holes And Revelations (Updated 09 version)	Exo-Politics	0.926	0.0866	123.02	0.0676	0.000454	2.68e-05	4	0.599	0	233266	-4.064	0.609	
+Muse	Black Holes And Revelations (Updated 09 version)	City Of Delusion	0.915	0.137	119.817	0.0741	0.00268	0.0279	4	0.285	2	288266	-5.158	0.292	
+Muse	Black Holes And Revelations (Updated 09 version)	Hoodoo	0.216	0.111	136.851	0.0339	0.543	0.325	4	0.254	0	223426	-9.713	0.124	
+Muse	Black Holes And Revelations (Updated 09 version)	Knights Of Cydonia	0.963	0.115	137.114	0.142	0.000273	0.0122	4	0.366	11	366213	-5.301	0.212	
+Muse	Black Holes And Revelations (Updated 09 version)	Glorious	0.979	0.342	100.937	0.0968	0.0151	0.0164	4	0.4	11	281027	-5.052	0.0784	
+Grateful Dead	American Beauty	Box Of Rain - Remastered Version	0.535	0.137	117.692	0.028	0.448	0	4	0.524	2	317440	-11.217	0.767	
+Grateful Dead	American Beauty	Friend Of The Devil - Remastered Version	0.628	0.614	103.317	0.0358	0.334	8.29e-06	4	0.642	7	201867	-12.849	0.882	
+Grateful Dead	American Beauty	Sugar Magnolia - Remastered Version	0.563	0.117	154.626	0.0458	0.175	2.63e-06	4	0.598	1	197360	-10.659	0.624	
+Grateful Dead	American Beauty	Operator - Remastered	0.61	0.0636	128.452	0.0392	0.0607	1.75e-05	4	0.763	1	142293	-10.174	0.71	
+Grateful Dead	American Beauty	Candyman - Remastered	0.429	0.146	117.129	0.0344	0.305	7.05e-05	3	0.452	0	370640	-12.217	0.551	
+Grateful Dead	American Beauty	Ripple - Remastered Version	0.456	0.541	126.626	0.0332	0.344	8.01e-05	4	0.61	7	251080	-12.107	0.707	
+Grateful Dead	American Beauty	Brokedown Palace - Remastered	0.377	0.123	116.697	0.0364	0.506	0.0204	4	0.459	5	245600	-13.658	0.287	
+Grateful Dead	American Beauty	Till The Morning Comes - Remastered	0.483	0.12	134.429	0.0285	0.156	0	4	0.629	9	187360	-11.21	0.839	
+Grateful Dead	American Beauty	Attics Of My Life - Remastered	0.23	0.118	90.455	0.0262	0.276	2.08e-06	4	0.44	9	310640	-12.164	0.274	
+Grateful Dead	American Beauty	Truckin' - Remastered Version	0.608	0.305	127.055	0.0541	0.102	0.000578	4	0.639	9	302200	-13.547	0.818	
+Crosby, Stills, Nash & Young	Deja Vu	Carry On	0.495	0.271	118.505	0.041	0.059	1.25e-06	4	0.463	1	265933	-12.203	0.52	
+Crosby, Stills, Nash & Young	Deja Vu	Teach Your Children	0.285	0.389	154.7	0.0264	0.643	1.66e-05	4	0.497	2	173467	-14.537	0.673	
+Crosby, Stills, Nash & Young	Deja Vu	Almost Cut My Hair	0.471	0.164	136.828	0.0437	0.183	0.00927	4	0.47	7	269173	-10.484	0.577	
+Crosby, Stills, Nash & Young	Deja Vu	Helpless	0.258	0.134	114.151	0.0309	0.86	0.00599	4	0.538	2	217133	-13.603	0.364	
+Crosby, Stills, Nash & Young	Deja Vu	Woodstock	0.539	0.17	118.928	0.0571	0.121	0.00944	4	0.458	4	233773	-12.402	0.57	
+Crosby, Stills, Nash & Young	Deja Vu	Deja Vu	0.267	0.296	137.119	0.036	0.808	0.221	4	0.454	11	252373	-15.915	0.19	
+Crosby, Stills, Nash & Young	Deja Vu	Our House	0.205	0.119	140.279	0.0479	0.896	5.46e-05	4	0.593	9	179760	-14.601	0.368	
+Crosby, Stills, Nash & Young	Deja Vu	4 + 20	0.058	0.113	140.957	0.0388	0.929	0.0797	4	0.64	4	126640	-25.243	0.122	
+Crosby, Stills, Nash & Young	Deja Vu	Country Girl: A. Whiskey Boot Hill. B. Down, Down, Down. C. "Country Girl" [I Think You're Pretty]	0.401	0.093	121.127	0.0306	0.585	3.18e-05	3	0.317	7	312133	-12.55	0.355	
+Crosby, Stills, Nash & Young	Deja Vu	Everybody I Love You	0.695	0.155	142.066	0.0325	0.00295	0.000112	4	0.371	9	142000	-8.559	0.717	
+Daft Punk	Discovery	One More Time	0.697	0.332	122.752	0.133	0.0193	0	4	0.611	2	320357	-8.618	0.471	
+Daft Punk	Discovery	Aerodynamic	0.911	0.0727	122.902	0.0524	0.328	0.861	4	0.624	7	212547	-7.482	0.152	
+Daft Punk	Discovery	Digital Love	0.664	0.342	124.726	0.0333	0.0481	0.862	4	0.644	9	301373	-8.398	0.543	
+Daft Punk	Discovery	Harder Better Faster Stronger	0.716	0.358	123.475	0.144	0.0427	0.00263	4	0.817	6	224693	-8.898	0.709	
+Daft Punk	Discovery	Crescendolls	0.75	0.0889	124.048	0.0721	0.0035	0.922	4	0.696	5	211640	-8.503	0.937	
+Daft Punk	Discovery	Nightvision	0.186	0.109	119.881	0.0321	0.845	0.916	4	0.491	0	104467	-29.512	0.443	
+Daft Punk	Discovery	Superheroes	0.739	0.102	140.875	0.0792	0.00405	0.00346	4	0.619	11	237800	-8.204	0.665	
+Daft Punk	Discovery	High Life	0.869	0.334	125.202	0.216	0.00445	0.398	4	0.653	8	201800	-9.393	0.514	
+Daft Punk	Discovery	Something About Us	0.475	0.046	99.958	0.0986	0.44	0.72	4	0.875	9	232667	-12.673	0.399	
+Daft Punk	Discovery	Voyager	0.743	0.309	119.882	0.0494	0.282	0.803	4	0.669	7	227867	-11.488	0.276	
+Daft Punk	Discovery	Veridis Quo	0.687	0.104	106.896	0.045	0.479	0.95	4	0.604	9	345187	-13.928	0.127	
+Daft Punk	Discovery	Short Circuit	0.558	0.0821	109.69	0.0741	0.00461	0.824	4	0.535	6	206867	-10.756	0.213	
+Daft Punk	Discovery	Face To Face	0.437	0.0293	117.79	0.0706	0.00135	0.0296	4	0.874	1	240173	-10.234	0.963	
+Daft Punk	Discovery	Too Long	0.582	0.177	127.02	0.301	0.00212	0	4	0.691	5	600293	-10.165	0.513	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Watch That Man - 2013 Remastered Version	0.934	0.0587	129.006	0.0367	8.97e-05	0.00994	4	0.475	7	270345	-7.579	0.762	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Aladdin Sane - 2013 Remastered Version	0.732	0.134	117.451	0.0417	0.209	0.00076	4	0.426	2	308591	-9.347	0.556	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Drive-In Saturday - 2013 Remastered Version	0.56	0.0674	201.015	0.037	0.348	0	3	0.302	7	272600	-9.528	0.434	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Panic in Detroit - 2013 Remastered Version	0.798	0.0981	93.655	0.0399	0.00622	0.00112	4	0.426	11	268646	-9.3	0.759	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Cracked Actor - 2013 Remastered Version	0.878	0.0807	126.12	0.0893	0.000295	6.24e-06	4	0.436	11	181537	-7.713	0.621	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Time - 2013 Remastered Version	0.651	0.105	145.178	0.0398	0.192	2.68e-06	4	0.33	0	315855	-8.731	0.377	
+David Bowie	Aladdin Sane (2013 Remastered Version)	The Prettiest Star - 2013 Remastered Version	0.559	0.324	118.276	0.0334	0.215	0.00227	4	0.566	5	211684	-8.165	0.607	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Let's Spend the Night Together - 2013 Remastered Version	0.881	0.0514	163.875	0.0429	0.0152	0.000271	4	0.442	9	190751	-8.917	0.933	
+David Bowie	Aladdin Sane (2013 Remastered Version)	The Jean Genie - 2013 Remastered Version	0.612	0.444	128.252	0.0311	0.355	8.55e-06	4	0.583	9	247450	-7.101	0.786	
+David Bowie	Aladdin Sane (2013 Remastered Version)	Lady Grinning Soul - 2013 Remastered Version	0.56	0.0795	93.208	0.0394	0.0326	0.000166	4	0.373	4	235255	-8.419	0.165	
+Bob Marley & The Wailers	Exodus	Natural Mystic	0.281	0.114	131.193	0.34	0.0515	6.95e-05	4	0.868	7	207733	-12.621	0.774	
+Bob Marley & The Wailers	Exodus	So Much Things To Say	0.336	0.582	123.166	0.478	0.208	0	4	0.815	10	188027	-9.219	0.769	
+Bob Marley & The Wailers	Exodus	Guiltiness	0.389	0.0481	121.161	0.227	0.0258	0.000426	4	0.899	9	199973	-10.042	0.794	
+Bob Marley & The Wailers	Exodus	The Heathen	0.455	0.597	135.14	0.0906	0.292	1.46e-05	4	0.772	4	152067	-9.321	0.663	
+Bob Marley & The Wailers	Exodus	Exodus	0.75	0.163	132.844	0.048	0.0311	0.0049	4	0.869	7	460227	-8.6	0.958	
+Bob Marley & The Wailers	Exodus	Jamming	0.467	0.109	123.583	0.307	0.102	3.98e-05	4	0.934	11	211000	-10.99	0.725	
+Bob Marley & The Wailers	Exodus	Waiting In Vain	0.457	0.0599	78.789	0.327	0.0292	3.07e-05	4	0.769	8	256240	-11.501	0.801	
+Bob Marley & The Wailers	Exodus	Turn Your Lights Down Low	0.351	0.0933	142.444	0.108	0.602	0.138	4	0.779	4	219360	-13.231	0.637	
+Bob Marley & The Wailers	Exodus	Three Little Birds	0.482	0.0476	148.404	0.0588	0.0111	1.57e-06	4	0.814	9	180267	-10.493	0.636	
+Bob Marley & The Wailers	Exodus	One Love / People Get Ready	0.523	0.0665	76.292	0.324	0.0783	0	4	0.725	10	172933	-9.593	0.939	
+Bob Marley & The Wailers	Exodus	Roots	0.482	0.0626	130.009	0.213	0.081	0.0138	4	0.894	6	223467	-11.274	0.864	
+Bob Marley & The Wailers	Exodus	Waiting In Vain - Alternate Version	0.523	0.0567	80.841	0.0977	0.00181	0.00123	4	0.748	1	284267	-11.793	0.789	
+Bob Marley & The Wailers	Exodus	Jamming - Long Version	0.562	0.0641	122.955	0.0563	0.00341	0.0381	4	0.886	11	352267	-8.458	0.762	
+Bob Marley & The Wailers	Exodus	Jammin'	0.473	0.0962	123.491	0.0812	0.000366	0.811	4	0.838	11	184227	-13.551	0.696	
+Bob Marley & The Wailers	Exodus	Exodus	0.504	0.0862	133.832	0.0657	0.000573	0.878	4	0.898	9	188267	-15.448	0.888	
+Bob Marley & The Wailers	Exodus	The Heathen - Live	0.51	0.992	151.29	0.0422	0.224	0.137	4	0.602	4	408200	-10.707	0.671	
+Bob Marley & The Wailers	Exodus	Crazy Baldhead / Running Away - Live	0.548	0.689	132.454	0.12	0.375	0.000991	4	0.797	6	561598	-9.487	0.796	
+Bob Marley & The Wailers	Exodus	War / No More Trouble - Live	0.608	0.984	78.911	0.383	0.492	0.00117	4	0.622	11	464333	-8.785	0.598	
+Bob Marley & The Wailers	Exodus	Jammin' - Live	0.7	0.96	132.491	0.0753	0.471	0.134	4	0.804	11	427247	-7.934	0.762	
+Bob Marley & The Wailers	Exodus	Exodus - Live	0.893	0.984	146.162	0.0496	0.64	0.0456	4	0.804	4	706258	-5.965	0.902	
+Bob Marley & The Wailers	Exodus	Punky Reggae Party - Jamaican 12" Version	0.624	0.1	135.798	0.0753	0.0208	0.0932	4	0.775	6	558533	-7.687	0.895	
+Bob Marley & The Wailers	Exodus	Punky Reggae Party - Dub: B-side Jamaican 12" version	0.535	0.11	135.995	0.0511	0.00388	0.581	4	0.762	11	528022	-8.932	0.862	
+Bob Marley & The Wailers	Exodus	Keep On Moving	0.38	0.1	74.11	0.0903	0.0685	0	4	0.794	9	385823	-10.465	0.715	
+Bob Marley & The Wailers	Exodus	Keep On Moving	0.39	0.113	82.907	0.332	0.000994	0.156	4	0.591	9	435133	-13.183	0.731	
+Bob Marley & The Wailers	Exodus	Exodus	0.267	0.0752	131.911	0.469	0.699	2.37e-05	4	0.67	8	67893	-16.1	0.776	
+Frank Zappa	Freak Out!	Hungry Freaks, Daddy	0.516	0.145	142.508	0.0339	0.0948	0	4	0.364	9	210467	-11.416	0.598	
+Frank Zappa	Freak Out!	I Ain't Got No Heart	0.659	0.276	134.691	0.0429	0.227	4.63e-06	4	0.382	9	155533	-11.446	0.503	
+Frank Zappa	Freak Out!	Who Are The Brain Police?	0.488	0.124	113.556	0.0392	0.0101	0.00261	3	0.27	9	213240	-13.417	0.633	
+Frank Zappa	Freak Out!	Go Cry On Somebody Else's Shoulder	0.364	0.303	99.427	0.0345	0.821	0	3	0.346	0	221000	-13.446	0.537	
+Frank Zappa	Freak Out!	Motherly Love	0.602	0.258	128.604	0.0404	0.128	0	4	0.447	2	165600	-11.503	0.674	
+Frank Zappa	Freak Out!	How Could I Be Such A Fool	0.372	0.327	116.533	0.0388	0.106	0	3	0.411	2	133267	-14.904	0.349	
+Frank Zappa	Freak Out!	Wowie Zowie	0.613	0.0655	138.39	0.0326	0.0511	0	4	0.55	0	173347	-12.95	0.774	
+Frank Zappa	Freak Out!	You Didn't Try To Call Me	0.551	0.179	114.857	0.0613	0.4	0	4	0.359	2	198813	-13.849	0.586	
+Frank Zappa	Freak Out!	Anyway The Wind Blows	0.714	0.222	129.66	0.0365	0.366	0	4	0.459	2	175827	-13.531	0.738	
+Frank Zappa	Freak Out!	I'm Not Satisfied	0.559	0.044	133.186	0.0451	0.471	0	4	0.467	6	158827	-12.736	0.471	
+Frank Zappa	Freak Out!	You're Probably Wondering Why I'm Here	0.384	0.131	139.057	0.0297	0.142	0	4	0.589	9	218133	-13.708	0.868	
+Frank Zappa	Freak Out!	Trouble Every Day	0.783	0.871	120.871	0.0748	0.554	0	4	0.336	2	350053	-12.667	0.471	
+Frank Zappa	Freak Out!	Help, I'm A Rock	0.599	0.275	120.493	0.0429	0.0239	0.00835	3	0.635	2	283067	-13.672	0.933	
+Frank Zappa	Freak Out!	It Can't Happen Here	0.418	0.272	116.133	0.22	0.805	0	3	0.437	2	236693	-17.458	0.487	
+Frank Zappa	Freak Out!	The Return Of The Son Of Monster Magnet	0.733	0.41	122.943	0.172	0.121	2.72e-05	4	0.396	9	739800	-14.375	0.307	
+The Allman Brothers Band	At Fillmore East	Statesboro Blues - Live At The Fillmore East/1971	0.638	0.474	126.33	0.0556	0.333	0.0115	4	0.518	2	260000	-11.226	0.773	
+The Allman Brothers Band	At Fillmore East	Done Somebody Wrong - Live At The Fillmore East/1971	0.57	0.943	143.618	0.0709	0.324	0.0564	4	0.436	5	273560	-11.149	0.663	
+The Allman Brothers Band	At Fillmore East	Stormy Monday - Live At The Fillmore East/1971	0.303	0.967	174.144	0.0349	0.474	0.0414	3	0.349	0	528000	-14.912	0.405	
+The Allman Brothers Band	At Fillmore East	You Don't Love Me - Live At The Fillmore East/1971	0.624	0.734	104.618	0.0517	0.519	0.616	4	0.436	2	1156733	-13.087	0.48	
+The Allman Brothers Band	At Fillmore East	Hot 'Lanta - Live At The Fillmore East/1971	0.594	0.703	108.098	0.0404	0.112	0.866	4	0.354	7	320067	-14.029	0.409	
+The Allman Brothers Band	At Fillmore East	In Memory Of Elizabeth Reed - Live At The Fillmore East/1971	0.655	0.748	115.283	0.0432	0.204	0.809	4	0.377	4	784493	-11.573	0.592	
+The Allman Brothers Band	At Fillmore East	Whipping Post - Live At The Fillmore East/1971	0.612	0.345	110.992	0.0474	0.255	0.479	4	0.349	4	1384067	-12.628	0.252	
+Air	Moon Safari	La femme d'argent	0.737	0.392	79.852	0.0362	0.436	0.678	4	0.516	6	426614	-8.189	0.545	
+Air	Moon Safari	Sexy Boy	0.651	0.111	111.896	0.0288	0.00111	0.609	4	0.435	0	298467	-6.152	0.196	
+Air	Moon Safari	All I Need	0.426	0.18	93.947	0.027	0.878	0.000997	4	0.327	7	268307	-11.576	0.17	
+Air	Moon Safari	Kelly Watch The Stars	0.739	0.111	109.837	0.0292	0.285	0.636	4	0.516	2	226293	-8.471	0.271	
+Air	Moon Safari	Talisman	0.547	0.114	132.937	0.0302	0.0703	0.861	4	0.565	11	256707	-11.107	0.296	
+Air	Moon Safari	Remember	0.675	0.0779	116.759	0.035	0.224	0.141	4	0.449	5	154293	-7.298	0.288	
+Air	Moon Safari	You Make It Easy	0.514	0.0883	109.841	0.028	0.216	0.0111	4	0.641	5	241533	-10.925	0.374	
+Air	Moon Safari	Ce matin-là	0.445	0.0888	65.514	0.0368	0.726	0.503	5	0.128	8	219040	-11.99	0.163	
+Air	Moon Safari	New Star In The Sky	0.332	0.689	129.807	0.0268	0.587	0.958	4	0.468	9	340600	-13.193	0.133	
+Air	Moon Safari	Le voyage de Pénélope	0.513	0.206	129.873	0.0309	0.557	0.892	4	0.504	2	190867	-9.648	0.316	
+CAN	Future Days	Future Days	0.663	0.0992	148.736	0.0799	0.251	0.937	4	0.7	7	570613	-17.778	0.64	
+CAN	Future Days	Spray	0.55	0.0574	94.917	0.046	0.582	0.891	3	0.346	7	509067	-15.593	0.306	
+CAN	Future Days	Moonshake	0.645	0.116	146.128	0.0429	0.105	0.842	4	0.799	9	184200	-13.797	0.836	
